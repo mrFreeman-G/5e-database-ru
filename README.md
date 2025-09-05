@@ -1,3 +1,48 @@
+# 5e-database-ru
+Форк для перевода 5e-database на русский язык.
+
+Переводы хранятся в ветке `translated`.
+
+### Прогресс:
+2014:
+- [ ] `0%` 5e-SRD-Ability-Scores.json
+- [ ] `0%` 5e-SRD-Alignments.json
+- [ ] `0%` 5e-SRD-Backgrounds.json
+- [ ] `0%` 5e-SRD-Classes.json
+- [ ] `0%` 5e-SRD-Conditions.json
+- [ ] `0%` 5e-SRD-Damage-Types.json
+- [ ] `0%` 5e-SRD-Equipment-Categories.json
+- [ ] `0%` 5e-SRD-Equipment.json
+- [ ] `0%` 5e-SRD-Feats.json
+- [ ] `0%` 5e-SRD-Features.json
+- [ ] `0%` 5e-SRD-Languages.json
+- [ ] `0%` 5e-SRD-Levels.json
+- [ ] `0%` 5e-SRD-Magic-Items.json
+- [ ] `0%` 5e-SRD-Magic-Schools.json
+- [ ] `0%` 5e-SRD-Monsters.json
+- [ ] `0%` 5e-SRD-Proficiencies.json
+- [ ] `0%` 5e-SRD-Races.json
+- [ ] `0%` 5e-SRD-Rule-Sections.json
+- [ ] `0%` 5e-SRD-Rules.json
+- [ ] `0%` 5e-SRD-Skills.json
+- [ ] `0%` 5e-SRD-Spells.json
+- [ ] `0%` 5e-SRD-Subclasses.json
+- [ ] `0%` 5e-SRD-Subraces.json
+- [ ] `0%` 5e-SRD-Traits.json
+- [ ] `0%` 5e-SRD-Weapon-Properties.json
+
+2024:
+- [ ] `0%` 5e-SRD-Ability-Scores.json
+- [ ] `0%` 5e-SRD-Alignments.json
+- [ ] `0%` 5e-SRD-Conditions.json
+- [ ] `0%` 5e-SRD-Damage-Types.json
+- [ ] `0%` 5e-SRD-Languages.json
+- [ ] `0%` 5e-SRD-Magic-Schools.json
+- [ ] `0%` 5e-SRD-Skills.json
+- [ ] `0%` 5e-SRD-Weapon-Mastery-Properties.json
+- [ ] `0%` 5e-SRD-Weapon-Properties.json
+
+
 # 5e-database
 
 ![Build Status](https://github.com/5e-bits/5e-database/workflows/5e%20Database%20CI/badge.svg?branch=main)
