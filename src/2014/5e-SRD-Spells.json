@@ -3737,12 +3737,13 @@
   },
   {
     "index": "cure-wounds",
-    "name": "Cure Wounds",
+    "name": "Лечение ран",
+    "name_en": "Cure Wounds",
     "desc": [
-      "A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs."
+      "Существо, которого вы касаетесь, восстанавливает количество хитов, равное 1к8 + ваш модификатор базовой характеристики. Это заклинание не оказывает никакого эффекта на Нежить и Конструктов."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st."
+      "Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, лечение увеличивается на 1к8 за каждый уровень ячейки выше первого."
     ],
     "range": "Касание",
     "components": [
@@ -3813,10 +3814,11 @@
   },
   {
     "index": "dancing-lights",
-    "name": "Dancing Lights",
+    "name": "Пляшущие огоньки",
+    "name_en": "Dancing Lights",
     "desc": [
-      "You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.",
-      "As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range."
+      "Вы создаете до четырёх огоньков размером с факел в пределах дистанции, делая их похожими на факелы, фонари или светящиеся сферы, парящие в воздухе. Вы можете также объединить четыре огонька в одну светящуюся человекоподобную фигуру Среднего размера. Какую бы форму вы ни выбрали, каждый огонёк излучает тусклый свет в радиусе 10 футов.",
+      "Вы можете бонусным действием в свой ход переместить огоньки на 60 футов в новое место в пределах дистанции. Каждый огонёк должен находиться в пределах 20 футов от другого огонька, созданного этим заклинанием, и огонёк тухнет, если оказывается за пределами дистанции заклинания."
     ],
     "range": "120 футов",
     "components": [
@@ -3863,11 +3865,12 @@
   },
   {
     "index": "darkness",
-    "name": "Darkness",
+    "name": "Тьма",
+    "name_en": "Darkness",
     "desc": [
-      "Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.",
-      "If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.",
-      "If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
+      "Из точки, выбранной вами в пределах дистанции, расползается магическая тьма сферой с радиусом 15 футов. Тьма огибает углы. Существа с тёмным зрением не могут видеть сквозь эту тьму, и немагический свет не может её осветить.",
+      "Если выбранная вами точка находится на предмете, который вы держите или который никто не несёт и не носит, тьма исходит из предмета и перемещается вместе с ним. Если полностью накрыть источник тьмы непрозрачным предметом, например, чашей или шлемом, тьма будет заблокирована.",
+      "Если часть зоны этого заклинания перекрывает часть зоны света, созданного заклинанием с уровнем не выше 2-го, заклинание, создавшее свет, рассеивается."
     ],
     "range": "60 футов",
     "components": [
@@ -3922,9 +3925,10 @@
   },
   {
     "index": "darkvision",
-    "name": "Darkvision",
+    "name": "Тёмное зрение",
+    "name_en": "Darkvision",
     "desc": [
-      "You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet."
+      "Вы касаетесь согласного существа и даруете ему возможность видеть в темноте. Пока заклинание активно, это существо обладает тёмным зрением в пределах 60 футов."
     ],
     "range": "Касание",
     "components": [
@@ -3976,11 +3980,12 @@
   },
   {
     "index": "daylight",
-    "name": "Daylight",
+    "name": "Дневной свет",
+    "name_en": "Daylight",
     "desc": [
-      "A 60-foot-radius sphere of light spreads out from a point you choose within range. The sphere is bright light and sheds dim light for an additional 60 feet.",
-      "If you chose a point on an object you are holding or one that isn't being worn or carried, the light shines from the object and moves with it. Completely covering the affected object with an opaque object, such as a bowl or a helm, blocks the light.",
-      "If any of this spell's area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled."
+      "Из точки, выбранной вами в пределах дистанции, распространяется сфера света с радиусом 60 футов. Сфера излучает яркий свет и тусклый свет в пределах ещё 60 футов.",
+      "Если выбранная вами точка находится на предмете, который вы держите или который никто не несёт или носит, свет исходит из предмета и перемещается вместе с ним. Если полностью накрыть источник света непрозрачным предметом, например, чашей или шлемом, свет будет заблокирован.",
+      "Если часть области этого заклинания накрывает область тьмы, созданной заклинанием с уровнем не выше 3-го, заклинание, создавшее тьму, рассеивается."
     ],
     "range": "60 футов",
     "components": [
@@ -4044,11 +4049,12 @@
   },
   {
     "index": "death-ward",
-    "name": "Death Ward",
+    "name": "Защита от смерти",
+    "name_en": "Death Ward",
     "desc": [
-      "You touch a creature and grant it a measure of protection from death.",
-      "The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.",
-      "If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends."
+      "Вы касаетесь существа и даруете ему некоторую защиту от смерти.",
+      "Когда хиты цели впервые опускаются до 0 из-за получения урона, хиты цели опускаются всего лишь до 1, и заклинание оканчивается.",
+      "Если заклинание ещё действует, а цель попадает под действие эффекта, убивающего её мгновенно, не причиняя урона, то этот эффект игнорируется, и заклинание заканчивается."
     ],
     "range": "Касание",
     "components": [
@@ -4088,15 +4094,16 @@
   },
   {
     "index": "delayed-blast-fireball",
-    "name": "Delayed Blast Fireball",
+    "name": "Замедленный огненный шар",
+    "name_en": "Delayed Blast Fireball",
     "desc": [
-      "A beam of yellow light flashes from your pointing finger, then condenses to linger at a chosen point within range as a glowing bead for the duration. When the spell ends, either because your concentration is broken or because you decide to end it, the bead blossoms with a low roar into an explosion of flame that spreads around corners. Each creature in a 20-foot-radius sphere centered on that point must make a dexterity saving throw. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one.",
-      "The spell's base damage is 12d6. If at the end of your turn the bead has not yet detonated, the damage increases by 1d6.",
-      "If the glowing bead is touched before the interval has expired, the creature touching it must make a dexterity saving throw. On a failed save, the spell ends immediately, causing the bead to erupt in flame. On a successful save, the creature can throw the bead up to 40 feet. When it strikes a creature or a solid object, the spell ends, and the bead explodes.",
-      "The fire damages objects in the area and ignites flammable objects that aren't being worn or carried."
+      "Из вашего указательного пальца вылетает луч жёлтого света, концентрирующийся в светящемся шарике в пределах дистанции. Когда заклинание оканчивается, либо из-за того, что вы теряете концентрацию, либо когда вы сами это решите, шарик взрывается с гулким рокотом вспышкой пламени, огибающего углы. Все существа в сфере с радиусом 20 футов с центром в этой точке должны совершить спасбросок Ловкости. При провале существо получает урон огнём, равный сумме накопленного урона, или половине этого урона в случае успеха.",
+      "Базовый урон этого заклинания 12к6. В конце каждого вашего хода, пока шарик не сдетонировал, урон увеличивается на 1к6.",
+      "Если светящегося шарика кто-то коснётся до того как он взорвётся, коснувшееся существо должно совершить спасбросок Ловкости. При провале заклинание мгновенно оканчивается, а шарик взрывается. В случае успеха существо может отбросить шарик на 40 футов. Ударившись о существо или твёрдый предмет, шарик взрывается, оканчивая заклинание.",
+      "Огонь причиняет урон предметам и воспламеняет горючие предметы, которые никто не несёт и не носит."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 8th level or higher, the base damage increases by 1d6 for each slot level above 7th."
+      "Если вы накладываете это заклинание, используя ячейку 8-го уровня или выше, базовый урон увеличивается на 1к6 за каждый уровень ячейки выше седьмого."
     ],
     "range": "150 футов",
     "components": [
@@ -4156,10 +4163,11 @@
   },
   {
     "index": "demiplane",
-    "name": "Demiplane",
+    "name": "Демиплан",
+    "name_en": "Demiplane",
     "desc": [
-      "You create a shadowy door on a flat solid surface that you can see within range. The door is large enough to allow Medium creatures to pass through unhindered. When opened, the door leads to a demiplane that appears to be an empty room 30 feet in each dimension, made of wood or stone. When the spell ends, the door disappears, and any creatures or objects inside the demiplane remain trapped there, as the door also disappears from the other side.",
-      "Each time you cast this spell, you can create a new demiplane, or have the shadowy door connect to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can have the shadowy door connect to its demiplane instead."
+      "Вы создаёте теневую дверь на твёрдой плоской поверхности, которую видите в пределах дистанции. Дверь достаточно большая, чтобы существа Среднего размера могли свободно через неё проходить. Если дверь открыть, она будет вести на демиплан, который выглядит как пустая комната по 30 футов во всех измерениях, построенная из дерева или камня. Когда заклинание оканчивается, дверь исчезает, а существа и предметы, находящиеся на демиплане, остаются запертыми там, так как дверь исчезает и с другой стороны тоже.",
+      "Каждый раз, когда вы накладываете это заклинание, вы либо создаёте новый демиплан, либо соединяете дверь с демипланом, созданным предыдущим накладыванием этого заклинания. Кроме того, если вы знаете природу и содержимое демиплана, который был создан этим заклинанием другим существом, вы можете соединить свою дверь с этим демипланом."
     ],
     "range": "60 футов",
     "components": [
@@ -4192,10 +4200,11 @@
   },
   {
     "index": "detect-evil-and-good",
-    "name": "Detect Evil and Good",
+    "name": "Обнаружение зла и добра",
+    "name_en": "Detect Evil and Good",
     "desc": [
-      "For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.",
-      "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+      "Пока заклинание активно, вы знаете, есть ли в пределах 30 футов от вас Аберрации, Исчадия, Небожители, Нежить, Феи или Элементали, а также их местоположение. Кроме того, вы знаете, есть ли в пределах 30 футов от вас место или предмет, который был магически освящён или осквернён.",
+      "Заклинание проницает большую часть барьеров, но блокируется 1 футом камня, 1 дюймом обычного металла, тонким листом свинца или 3 футами дерева или земли."
     ],
     "range": "На себя",
     "components": [
@@ -4239,10 +4248,11 @@
   },
   {
     "index": "detect-magic",
-    "name": "Detect Magic",
+    "name": "Обнаружение магии",
+    "name_en": "Detect Magic",
     "desc": [
-      "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.",
-      "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+      "Пока заклинание активно, вы чувствуете присутствие магии в пределах 30 футов. Если вы почувствовали за счёт этого заклинания присутствие магии, вы можете действием увидеть слабую ауру вокруг видимого существа или предмета, несущего на себе магию, а также узнать школу этой магии, если она есть.",
+      "Заклинание проницает большую часть барьеров, но блокируется 1 футом камня, 1 дюймом обычного металла, тонким листом свинца или 3 футами дерева или земли."
     ],
     "range": "На себя",
     "components": [
@@ -4311,10 +4321,11 @@
   },
   {
     "index": "detect-poison-and-disease",
-    "name": "Detect Poison and Disease",
+    "name": "Обнаружение болезней и яда",
+    "name_en": "Detect Poison and Disease",
     "desc": [
-      "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.",
-      "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+      "Пока заклинание активно, вы можете ощущать присутствие и местонахождение ядов, ядовитых существ и болезней в пределах 30 футов от себя. Вы также распознаёте вид яда, ядовитого существа или болезни.",
+      "Заклинание проницает большую часть барьеров, но блокируется 1 футом камня, 1 дюймом обычного металла, тонким листом свинца или 3 футами дерева или земли."
     ],
     "range": "На себя",
     "components": [
@@ -4370,13 +4381,14 @@
   },
   {
     "index": "detect-thoughts",
-    "name": "Detect Thoughts",
+    "name": "Обнаружение мыслей",
+    "name_en": "Detect Thoughts",
     "desc": [
-      "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.",
-      "You initially learn the surface thoughts of the creature - what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.",
-      "Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.",
-      "You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.",
-      "Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range."
+      "Пока заклинание активно, вы можете читать мысли некоторых существ. При накладывании заклинания, а также действием в свой ход, пока заклинание активно, вы можете сосредоточиться на одном существе, которое видите в пределах 30 футов. Если у выбранного существа Интеллект равен 3 или ниже, или если оно не может говорить ни на одном языке, оно не попадает под действие заклинания.",
+      "Вначале вы знаете поверхностные мысли существа — то, что находится в его сознании на текущий момент. Вы можете действием либо перенести внимание на мысли другого существа, либо попытаться углубиться в мысли текущего существа. Если вы погружаетесь глубже, цель должна совершить спасбросок Мудрости. В случае провала вы получаете понимание её мыслей (если есть), её эмоционального состояния, и того, что её больше всего заботит (а также то, что она любит и ненавидит). Если существо преуспеет, заклинание оканчивается. В любом случае, цель знает, что вы прощупывали её сознание, и если вы не перевели внимание на мысли другого существа, предыдущее существо может в свой ход действием совершить проверку Интеллекта, противопоставленную вашей проверке Интеллекта; в случае успеха заклинание оканчивается.",
+      "Вопросы, задаваемые устно цели, влияют на ход её мыслей, поэтому это заклинание чрезвычайно эффективно во время допросов.",
+      "Вы можете также использовать это заклинание для обнаружения присутствия мыслящих существ, которых вы не видите. Когда вы накладываете это заклинание, или позже, пока оно активно, потратив действие, вы можете поискать мысли существ в пределах 30 футов. Заклинание проницает большую часть барьеров, но блокируется 2 футами камня, 2 дюймами обычного металла или тонким листом свинца. Вы не можете обнаружить существ с Интеллектом 3 и ниже, а также тех, кто не говорят ни на одном языке.",
+      "Обнаружив таким методом присутствие существа, вы можете до окончания действия заклинания читать его мысли, как описано выше, даже если вы его не видите, но оно должно находиться в пределах дистанции."
     ],
     "range": "На себя",
     "components": [
@@ -4423,11 +4435,12 @@
   },
   {
     "index": "dimension-door",
-    "name": "Dimension Door",
+    "name": "Переносящая дверь",
+    "name_en": "Dimension Door",
     "desc": [
-      "You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"",
-      "You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.",
-      "If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take 4d6 force damage, and the spell fails to teleport you."
+      "Вы телепортируетесь в другое пространство в пределах дистанции. Вы оказываетесь точно в выбранном месте. Это может быть место, которое вы видели, которое вы представляете, или которое вы можете описать указаниями направления и расстояния, например, «200 футов подо мной» или «на северо-запад, вверх под углом 45 градусов, на 300 футов».",
+      "Вы можете взять с собой предметы, если их вес позволяет вам их нести. Вы также можете взять с собой одно согласное существо, с размером не больше вашего, которое тоже может нести дозволенный вес предметов. При накладывании заклинания существо должно находиться в пределах 5 футов от вас.",
+      "Если вы должны оказаться в месте, уже занятом существом или предметом, вы и все перемещающиеся с вами существа получаете 4к6 урона силовым полем, и заклинание вас не телепортирует."
     ],
     "range": "500 футов",
     "components": [
@@ -4480,11 +4493,12 @@
   },
   {
     "index": "disguise-self",
-    "name": "Disguise Self",
+    "name": "Маскировка",
+    "name_en": "Disguise Self",
     "desc": [
-      "You make yourself--including your clothing, armor, weapons, and other belongings on your person--look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.",
-      "The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.",
-      "To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC."
+      "Вы заставляете себя — включая одежду, доспехи, оружие и прочее имущество — выглядеть иначе, пока заклинание не окончится, или пока вы не окончите его преждевременно, действием. Вы можете выглядеть на 1 фут (30 сантиметров) выше или ниже, а также стать худым, толстым или получить среднее телосложение. Вы не можете менять основу тела, поэтому у новой формы должен быть такой же набор конечностей. Во всем остальном характер иллюзии определяете вы.",
+      "Изменения, вызванные этим заклинанием, не выдерживают проверку физическим исследованием. Например, если вы добавили к своему снаряжению шляпу, предметы будут проходить сквозь нее, и все, кто к ней прикоснутся, либо ничего не почувствуют, либо почувствуют вашу голову и волосы. Если вы становитесь худее, то рука того, кто к вам тянется, наткнется на вас на полпути, ещё в воздухе.",
+      "Для обнаружения того, что вы замаскированы, существо должно действием обследовать вашу внешность и преуспеть в проверке Интеллекта (Расследование) против вашей Сл заклинаний."
     ],
     "range": "На себя",
     "components": [
@@ -4529,15 +4543,16 @@
   },
   {
     "index": "disintegrate",
-    "name": "Disintegrate",
+    "name": "Распад",
+    "name_en": "Disintegrate",
     "desc": [
-      "A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by wall of force.",
-      "A creature targeted by this spell must make a dexterity saving throw. On a failed save, the target takes 10d6 + 40 force damage. If this damage reduces the target to 0 hit points, it is disintegrated.",
-      "A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a true resurrection or a wish spell.",
-      "This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it. A magic item is unaffected by this spell."
+      "Тонкий зелёный луч вылетает из вашего указательного пальца в цель, которую вы видите в пределах дистанции. Цель может быть существом, предметом или творением из магической силы, например, стеной, созданной заклинанием 'силовая стена'.",
+      "Существо, ставшее целью этого заклинания, должно преуспеть в спасброске Ловкости, иначе получит 10к6 + 40 урона силовым полем. Если после получения этого урона у цели остаётся 0 хитов, то она распадается.",
+      "Распавшееся существо, а также всё, что оно несло и носило, кроме магических предметов, превращается в кучку мелкого серого порошка. Такое существо можно вернуть к жизни только посредством заклинания 'истинное воскрешение' или 'исполнение желаний'.",
+      "Это заклинание вызывает автоматический распад немагических предметов и творений из магической силы с размером не больше Большого. Если цель — предмет или творение из магической силы с размером Огромное или больше, заклинание вызывает распад его части в кубе с длиной ребра 10 футов. На магические предметы это заклинание не действует."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 7th level or higher, the damage increases by 3d6 for each slot level above 6th."
+      "Если вы накладываете это заклинание, используя ячейку 7-го уровня или выше, урон увеличивается на 3к6 за каждый уровень ячейки выше шестого."
     ],
     "range": "60 футов",
     "components": [
@@ -4595,12 +4610,13 @@
   },
   {
     "index": "dispel-evil-and-good",
-    "name": "Dispel Evil and Good",
+    "name": "Рассеивание зла и добра",
+    "name_en": "Dispel Evil and Good",
     "desc": [
-      "Shimmering energy surrounds and protects you from fey, undead, and creatures originating from beyond the Material Plane. For the duration, celestials, elementals, fey, fiends, and undead have disadvantage on attack rolls against you.",
-      "You can end the spell early by using either of the following special functions.",
-      "***Break Enchantment.*** As your action, you touch a creature you can reach that is charmed, frightened, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer charmed, frightened, or possessed by such creatures.",
-      "***Dismissal.*** As your action, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a charisma saving throw or be sent back to its home plane (if it isn't there already). If they aren't on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild."
+      "Вас окружает мерцающая энергия, защищающая от Нежити, Фей и существ, происходящих не с Материального плана. Пока заклинание активно, Исчадия, Небожители, Нежить, Феи и Элементали совершают по вам броски атаки с помехой.",
+      "Вы можете закончить заклинание преждевременно, выбрав один из представленных ниже вариантов.",
+      "***Поломка чар.*** Вы касаетесь действием существа, до которого можете дотянуться, и которое очаровано, испугано или одержимо Исчадием, Небожителем, Нежитью, Феей или Элементалем. Это существо перестаёт быть очарованным, испуганным или одержимым такими существами.",
+      "***Изгнание.*** Вы совершаете действием рукопашную атаку заклинанием по Исчадию, Небожителю, Нежити, Фее или Элементалю в пределах досягаемости. При попадании вы пытаетесь изгнать существо на его родной план. Существо должно преуспеть в спасброске Харизмы, иначе оно будет отправлено на свой родной план (если только оно уже не находится там). Нежить отправляется в Царство Теней, а Феи — в Страну Фей."
     ],
     "range": "На себя",
     "components": [
@@ -4621,7 +4637,7 @@
         "url": "/api/2014/ability-scores/cha"
       },
       "dc_success": "другое",
-      "desc": "The creature must succeed on a charisma saving throw or be sent back to its home plane (if it isn't there already)"
+      "desc": "Существо должно преуспеть в спасброске Харизмы, иначе оно будет отправлено на свой родной план (если только оно уже не находится там)"
     },
     "school": {
       "index": "abjuration",
@@ -4645,12 +4661,13 @@
   },
   {
     "index": "dispel-magic",
-    "name": "Dispel Magic",
+    "name": "Рассеивание магии",
+    "name_en": "Dispel Magic",
     "desc": [
-      "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends."
+      "Выберите одно существо, предмет или магический эффект в пределах дистанции. Все заклинания 3-го уровня и ниже на цели оканчиваются. Для каждого заклинания с уровнем 4 или выше совершите проверку базовой характеристики. Сложность равна 10 + уровень заклинания. При успехе это заклинание оканчивается."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used."
+      "Если вы накладываете это заклинание, используя ячейку 4-го уровня или выше, вы автоматически оканчиваете на цели эффекты заклинаний, уровень которых не превышает уровень использованной ячейки заклинаний."
     ],
     "range": "120 футов",
     "components": [
@@ -4720,11 +4737,12 @@
   },
   {
     "index": "divination",
-    "name": "Прорицание",
+    "name": "Предсказание",
+    "name_en": "Divination",
     "desc": [
-      "Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The GM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.",
-      "The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.",
-      "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret."
+      "Ваша магия и жертвоприношение связывают вас с богом или его слугой. Вы задаёте один вопрос о конкретной цели, событии или деятельности, которая произойдёт в течение следующих 7 дней. Мастер даёт на это честный ответ. Это может быть короткая фраза, загадочный стих или знамение.",
+      "Это заклинание не учитывает всевозможные обстоятельства, способные изменить исход событий, такие как накладывание дополнительных заклинаний и потеря или приобретение спутников.",
+      "Если вы накладываете это заклинание несколько раз до окончания продолжительного отдыха, существует накопительный шанс 25 процентов за каждое накладывание, начиная со второго, что вы получите случайный ответ. Мастер совершает этот бросок скрытно."
     ],
     "range": "На себя",
     "components": [
@@ -4761,9 +4779,10 @@
   },
   {
     "index": "divine-favor",
-    "name": "Divine Favor",
+    "name": "Божественное благоволение",
+    "name_en": "Divine Favor",
     "desc": [
-      "Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra 1d4 radiant damage on a hit."
+      "Ваша молитва наполняет вас божественной энергией. Пока заклинание активно, ваши атаки оружием причиняют при попадании дополнительный урон 1к4 лучистого урона."
     ],
     "range": "На себя",
     "components": [
@@ -4808,14 +4827,15 @@
   },
   {
     "index": "divine-word",
-    "name": "Divine Word",
+    "name": "Божественное слово",
+    "name_en": "Divine Word",
     "desc": [
-      "You utter a divine word, imbued with the power that shaped the world at the dawn of creation. Choose any number of creatures you can see within range. Each creature that can hear you must make a Charisma saving throw. On a failed save, a creature suffers an effect based on its current hit points:",
-      "- 50 hit points or fewer: deafened for 1 минута",
-      "- 40 hit points or fewer: deafened and blinded for 10 minutes",
-      "- 30 hit points or fewer: blinded, deafened, and stunned for 1 hour",
-      "- 20 hit points or fewer: killed instantly",
-      "Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a wish spell."
+      "Вы произносите божественное слово, наделённое силой, сформировавшей мир на заре творения. Выберите любое количество существ, которых вы видите в пределах дистанции. Все эти существа, слышащие вас, должны совершить спасбросок Харизмы. При провале существо попадает под действие эффекта, основанного на текущем количестве хитов:",
+      "- 50 хитов или меньше: глухота на 1 минуту.",
+      "- 40 хитов или меньше: глухота и слепота на 10 минут.",
+      "- 30 хитов или меньше: слепота, глухота и ошеломление на 1 час.",
+      "- 20 хитов или меньше: моментальная смерть.",
+      "Вне зависимости от текущих хитов, Исчадия, Небожители, Феи и Элементали, провалившие спасбросок, изгоняются на свой родной план (если только они уже там не находятся), и не могут вернуться на ваш текущий план в течение 24 часов кроме как посредством заклинания исполнение желаний (wish)."
     ],
     "range": "30 футов",
     "components": [
@@ -4833,7 +4853,7 @@
         "url": "/api/2014/ability-scores/cha"
       },
       "dc_success": "ничего",
-      "desc": "On a failed save, a creature suffers an effect based on its current hit points."
+      "desc": "При провале существо попадает под действие эффекта, основанного на текущем количестве хитов."
     },
     "school": {
       "index": "evocation",
@@ -4852,14 +4872,15 @@
   },
   {
     "index": "dominate-beast",
-    "name": "Dominate Beast",
+    "name": "Подчинение зверя",
+    "name_en": "Dominate Beast",
     "desc": [
-      "You attempt to beguile a creature that you can see within range. It must succeed on a wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
-      "While the creature is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
-      "You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+      "Вы пытаетесь взять под контроль Зверя, которого видите в пределах дистанции. Зверь должен преуспеть в спасброске Мудрости, иначе он станет очарован вами на время действия заклинания. Если вы или дружественные вам существа сражаются с ним, он совершает спасбросок с преимуществом.",
+      "Пока Зверь очарован, вы обладаете телепатической связью с ним, пока вы оба находитесь на одном плане существования. При помощи этой связи вы можете отдавать ему команды, пока находитесь в сознании (действие не требуется), и он должен будет их выполнять. Вы можете указать общее действие, такое как «атакуй вон то существо», «беги отсюда» или «принеси вот это». Если существо выполняет приказ и не получает дальнейших указаний от вас, оно в меру своих сил обороняется и защищает себя.",
+      "Вы можете действием захватить полный контроль над целью. До конца вашего следующего хода существо совершает только выбранные вами действия, и не делает ничего, что вы ему не позволяете. В это время вы можете заставлять существо совершать реакции, но при этом вы тратите и свою реакцию тоже. Каждый раз, когда цель получает урон, она совершает новый спасбросок Мудрости от этого заклинания. В случае успеха заклинание оканчивается."
     ],
     "higher_level": [
-      "When you cast this spell with a 9th level spell slot, the duration is concentration, up to 8 hours."
+      "Если вы накладываете это заклинание ячейкой 5-го уровня, длительность становится 'Концентрация, вплоть до 10 минут'. Если вы накладываете это заклинание ячейкой 6-го уровня, длительность становится 'Концентрация, вплоть до 1 часа'. Если вы накладываете это заклинание ячейкой 7-го уровня или выше, длительность становится 'Концентрация, вплоть до 8 часов'."
     ],
     "range": "60 футов",
     "components": [
@@ -4901,15 +4922,16 @@
   },
   {
     "index": "dominate-monster",
-    "name": "Dominate Monster",
+    "name": "Подчинение чудовища",
+    "name_en": "Dominate Monster",
     "desc": [
-      "You attempt to beguile a creature that you can see within range. It must succeed on a wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
-      "While the creature is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
-      "You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.",
-      "Each time the target takes damage, it makes a new wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+      "Вы пытаетесь взять под контроль существо, которого видите в пределах дистанции. Существо должно преуспеть в спасброске Мудрости, иначе оно станет очарованным вами на время действия заклинания. Если вы или дружественные вам существа сражаются с ним, оно совершает спасбросок с преимуществом.",
+      "Пока существо очаровано, вы обладаете телепатической связью с ним, пока вы оба находитесь на одном плане существования. При помощи этой связи вы можете отдавать ему команды, пока находитесь в сознании (действие не требуется), и оно должно будет их выполнять. Вы можете указать общее действие, такое как «атакуй вон то существо», «беги отсюда» или «принеси вот это». Если существо выполняет приказ и не получает дальнейших указаний от вас, оно в меру своих сил обороняется и защищает себя.",
+      "Вы можете действием захватить полный контроль над целью. До конца вашего следующего хода существо совершает только выбранные вами действия, и не делает ничего, что вы ему не позволяете. В это время вы можете заставлять существо совершать реакции, но при этом вы тратите и свою реакцию тоже.",
+      "Каждый раз, когда цель получает урон, она совершает новый спасбросок Мудрости от этого заклинания. При успехе заклинание оканчивается."
     ],
     "higher_level": [
-      "When you cast this spell with a 9th-level spell slot, the duration is concentration, up to 8 hours."
+      "Если вы накладываете это заклинание ячейкой 9-го уровня, длительность становится 'Концентрация, вплоть до 8 часов'."
     ],
     "range": "60 футов",
     "components": [
@@ -4962,15 +4984,16 @@
   },
   {
     "index": "dominate-person",
-    "name": "Dominate Person",
+    "name": "Подчинение личности",
+    "name_en": "Dominate Person",
     "desc": [
-      "You attempt to beguile a humanoid that you can see within range. It must succeed on a wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
-      "While the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
-      "You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.",
-      "Each time the target takes damage, it makes a new wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+      "Вы пытаетесь взять под контроль Гуманоида, которого видите в пределах дистанции. Он должен преуспеть в спасброске Мудрости, иначе станет очарованным вами на время действия заклинания. Если вы или дружественные вам существа сражаются с ним, он совершает спасбросок с преимуществом.",
+      "Пока существо очаровано, вы обладаете телепатической связью с ним, пока вы оба находитесь на одном плане существования. При помощи этой связи вы можете отдавать ему команды, пока находитесь в сознании (действие не требуется), и оно должно будет их выполнять. Вы можете указать общее действие, такое как «атакуй вон то существо», «беги отсюда» или «принеси вот это». Если существо выполняет приказ и не получает дальнейших указаний от вас, оно в меру своих сил обороняется и защищает себя.",
+      "Вы можете действием захватить полный контроль над целью. До конца вашего следующего хода существо совершает только выбранные вами действия и не делает ничего, что вы ему не позволяете. В это время вы можете заставлять существо совершать реакции, но при этом вы тратите и свою реакцию тоже.",
+      "Каждый раз, когда цель получает урон, она совершает новый спасбросок Мудрости от этого заклинания. При успехе заклинание оканчивается."
     ],
     "higher_level": [
-      "When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours."
+      "Если вы накладываете это заклинание ячейкой 6-го уровня, длительность становится 'Концентрация, вплоть до 10 минут'. Если вы накладываете это заклинание ячейкой 7-го уровня, длительность становится 'Концентрация, вплоть до 1 часа'. Если вы накладываете это заклинание ячейкой 8-го уровня или выше, длительность становится 'Концентрация, вплоть до 8 часов'."
     ],
     "range": "60 футов",
     "components": [
@@ -4989,7 +5012,7 @@
         "url": "/api/2014/ability-scores/wis"
       },
       "dc_success": "другое",
-      "desc": "Each time the target takes damage, it makes a new wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+      "desc": "Каждый раз, когда цель получает урон, она совершает новый спасбросок Мудрости от этого заклинания. При успехе заклинание оканчивается."
     },
     "school": {
       "index": "enchantment",
@@ -5018,13 +5041,14 @@
   },
   {
     "index": "dream",
-    "name": "Dream",
+    "name": "Вещий сон",
+    "name_en": "Dream",
     "desc": [
-      "This spell shapes a creature's dreams. Choose a creature known to you as the target of this spell. The target must be on the same plane of existence as you. Creatures that don't sleep, such as elves, can't be contacted by this spell. You, or a willing creature you touch, enters a trance state, acting as a messenger.",
-      "While in the trance, the messenger is aware of his or her surroundings, but can't take actions or move.",
-      "If the target is asleep, the messenger appears in the target's dreams and can converse with the target as long as it remains asleep, through the duration of the spell. The messenger can also shape the environment of the dream, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the effect of the spell early. The target recalls the dream perfectly upon waking. If the target is awake when you cast the spell, the messenger knows it, and can either end the trance (and the spell) or wait for the target to fall asleep, at which point the messenger appears in the target's dreams.",
-      "You can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target's sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes 3d6 psychic damage.",
-      "If you have a body part, lock of hair, clipping from a nail, or similar portion of the target's body, the target makes its saving throw with disadvantage."
+      "Это заклинание формирует сон другого существа. Выберите целью этого заклинания известное вам существо. Цель должна находиться на одном плане существования с вами. Этим заклинанием нельзя связаться с существами, которые не спят, например, с эльфами. Вы или согласное существо, которого вы касаетесь, входите в транс, становясь посыльным.",
+      "Находясь в трансе, посыльный осознаёт своё окружение, но не может совершать действий и перемещаться.",
+      "Если цель спит, посыльный появляется в её сне и может беседовать с ней, пока та спит, и пока заклинание активно. Посыльный также может формировать окружение сна, создавая местность, предметы и прочие образы. Посыльный может в любое время выйти из транса, окончив эффект этого заклинания. После пробуждения цель прекрасно помнит сон. Если в момент накладывания заклинания цель бодрствует, посыльный это узнаёт, и может либо окончить транс (и заклинание), либо подождать, пока цель заснёт, и тогда он появится во сне цели.",
+      "Вы можете сделать посыльного кошмарным для цели. В этом случае посыльный может передать послание не длиннее десяти слов, и цель обязана совершить спасбросок Мудрости. При провале отголоски кошмара длятся весь сон, и цель не получает преимуществ от этого отдыха. Кроме того, когда цель просыпается, она получает 3к6 урона психической энергией.",
+      "Если у вас есть часть тела, клок волос, обрезки ногтей или другая подобная часть тела цели, она совершает спасбросок с помехой."
     ],
     "range": "Special",
     "components": [
@@ -5055,7 +5079,7 @@
         "url": "/api/2014/ability-scores/wis"
       },
       "dc_success": "ничего",
-      "desc": "On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target's sleep and prevents the target from gaining any benefit from that rest."
+      "desc": "При провале отголоски кошмара длятся весь сон, и цель не получает преимуществ от этого отдыха."
     },
     "school": {
       "index": "illusion",
@@ -5090,13 +5114,14 @@
   },
   {
     "index": "druidcraft",
-    "name": "Druidcraft",
+    "name": "Искусство друидов",
+    "name_en": "Druidcraft",
     "desc": [
-      "Whispering to the spirits of nature, you create one of the following effects within 'range':",
-      "- You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.",
-      "- You instantly make a flower bloom, a seed pod open, or a leaf bud bloom.",
-      "- You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint order of skunk. The effect must fit in a 5-foot cube.",
-      "- You instantly light or snuff out a candle, a torch, or a small campfire."
+      "Шепча духам природы, вы создаёте один из следующих эффектов в пределах дистанции:",
+      "- Вы создаёте крошечный, безвредный сенсорный эффект, предсказывающий погоду в вашем местоположении на следующие 24 часа. Эффект может проявляться как золотой шар при ясной погоде, облако при дожде, падающие снежинки при снегопаде и так далее. Этот эффект длится 1 раунд.",
+      "- Вы мгновенно заставляете распуститься цветок, раскрыться семенную коробочку или распуститься почку.",
+      "- Вы создаёте мгновенный, безвредный сенсорный эффект, такой как опадающие листья, порыв ветра, звук маленького животного или слабый запах скунса. Эффект должен помещаться в куб со стороной 5 футов.",
+      "- Вы мгновенно зажигаете или гасите свечу, факел или небольшой костёр."
     ],
     "range": "30 футов",
     "components": [
@@ -5125,15 +5150,16 @@
   },
   {
     "index": "earthquake",
-    "name": "Earthquake",
+    "name": "Землетрясение",
+    "name_en": "Earthquake",
     "desc": [
-      "You create a seismic disturbance at a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point and shakes creatures and structures in contact with the ground in that area.",
-      "The ground in the area becomes difficult terrain. Each creature on the ground that is concentrating must make a constitution saving throw. On a failed save, the creature's concentration is broken.",
-      "When you cast this spell and at the end of each turn you spend concentrating on it, each creature on the ground in the area must make a dexterity saving throw. On a failed save, the creature is knocked prone.",
-      "This spell can have additional effects depending on the terrain in the area, as determined by the GM.",
-      "Fissures. Fissures open throughout the spell's area at the start of your next turn after you cast the spell. A total of 1d6 such fissures open in locations chosen by the GM. Each is 1d10 x 10 feet deep, 10 feet wide, and extends from one edge of the spell's area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.",
-      "A fissure that opens beneath a structure causes it to automatically collapse (see below).",
-      "Structures. The tremor deals 50 bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a dexterity saving throw. On a failed save, the creature takes 5d6 bludgeoning damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The GM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall prone or become buried."
+      "Вы создаёте сейсмические возмущения в точке на земле, которую видите в пределах дистанции. Пока заклинание активно, на земле в круге с радиусом 100 футов от этой точки ощущаются интенсивные толчки, сотрясающие существ и строения, находящиеся там.",
+      "Местность в этой области становится труднопроходимой. Все существа, находящиеся на земле и концентрирующиеся при этом, должны совершить спасбросок Телосложения. При провале концентрация существа нарушается.",
+      "Когда вы накладываете это заклинание, а также в конце каждого хода, когда вы на нём концентрируетесь, все существа, находящиеся на земле в области заклинания, должны совершать спасброски Ловкости. При провале существо сбивается с ног.",
+      "У этого заклинания могут быть другие эффекты, зависящие от местности, на усмотрение Мастера.",
+      "Трещины. В области заклинания в начале вашего хода, следующего за тем, в котором вы наложили это заклинание, появляются трещины. Появляется 1к6 трещин в местах, определённых Мастером. Каждая 1к10 × 10 футов глубиной, 10 футов в ширину, а длиной от одного края заклинания до другого. Существо, стоящее в месте, где должна появиться трещина, должно преуспеть в спасброске Ловкости, иначе упадёт внутрь. Преуспевшее в спасброске существо перемещается вместе с одним из краёв трещины.",
+      "Трещины, открывающиеся под зданиями, заставляют их автоматически обрушиться (смотрите ниже).",
+      "Здания. Толчки причиняют 50 дробящего урона строениям, находящимся в контакте с землёй, когда вы накладываете это заклинание, а также в начале каждого вашего хода, пока заклинание активно. Если хиты здания опускаются до 0, оно обрушивается, и потенциально может причинить урон существам. Существо, находящееся в пределах половины высоты здания, должно совершить спасбросок Ловкости. При провале существо получает 5к6 дробящего урона, сбивается с ног и погребается под завалами, после чего для высвобождения требуется проверка Силы (Атлетика) Сл 20, совершённая действием. Мастер может корректировать Сл, в зависимости от характера обломков. При успехе существо получает половину урона, не сбивается с ног и не погребается."
     ],
     "range": "500 футов",
     "components": [
@@ -5178,9 +5204,10 @@
   },
   {
     "index": "eldritch-blast",
-    "name": "Eldritch Blast",
+    "name": "Мистический заряд",
+    "name_en": "Eldritch Blast",
     "desc": [
-      "A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage. The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+      "К существу, находящемуся в пределах дистанции, устремляется луч потрескивающей энергии. Совершите дальнобойную атаку заклинанием по цели. При попадании цель получает 1к10 урона силовым полем. Заклинание создаёт ещё один луч, когда вы достигаете больших уровней: два луча на 5-м уровне, три луча на 11-м уровне и четыре луча на 17-м уровне. Вы можете направить лучи в одну цель или в разные. Для каждого луча совершите свой бросок атаки."
     ],
     "range": "120 футов",
     "components": [
@@ -5229,18 +5256,19 @@
   },
   {
     "index": "enhance-ability",
-    "name": "Enhance Ability",
+    "name": "Улучшение характеристики",
+    "name_en": "Enhance Ability",
     "desc": [
-      "You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.",
-      "***Bear's Endurance.*** The target has advantage on constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.",
-      "***Bull's Strength.*** The target has advantage on strength checks, and his or her carrying capacity doubles.",
-      "***Cat's Grace.*** The target has advantage on dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.",
-      "***Eagle's Splendor.*** The target has advantage on Charisma checks.",
-      "***Fox's Cunning.*** The target has advantage on intelligence checks.",
-      "***Owl's Wisdom.*** The target has advantage on wisdom checks."
+      "Вы касаетесь существа и улучшаете его при помощи магии. Выберите один из следующих эффектов. Цель получает выбранный эффект на время действия заклинания.",
+      "***Медвежья выносливость.*** Цель совершает с преимуществом проверки Телосложения. Она также получает 2к6 временных хитов, которые исчезают в конце заклинания.",
+      "***Бычья сила.*** Цель совершает с преимуществом проверки Силы, а грузоподъёмность удваивается.",
+      "***Кошачья ловкость.*** Цель совершает с преимуществом проверки Ловкости. Кроме того, она не получает урон за падение с высоты 20 футов или меньше, если она не недееспособна.",
+      "***Орлиное великолепие.*** Цель совершает с преимуществом проверки Харизмы.",
+      "***Лисья хитрость.*** Цель совершает с преимуществом проверки Интеллекта.",
+      "***Совиная мудрость.*** Цель совершает с преимуществом проверки Мудрости."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+      "Если вы накладываете это заклинание, используя ячейку 3-го уровня или выше, вы можете сделать целью одно дополнительное существо за каждый уровень ячейки выше второго."
     ],
     "range": "Касание",
     "components": [
@@ -5292,12 +5320,13 @@
   },
   {
     "index": "enlarge-reduce",
-    "name": "Enlarge/Reduce",
+    "name": "Увеличение/уменьшение",
+    "name_en": "Enlarge/Reduce",
     "desc": [
-      "You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.",
-      "If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.",
-      "***Enlarge.*** The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category-from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.",
-      "***Reduce.*** The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category-from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)."
+      "На время действия заклинания вы увеличиваете или уменьшаете существо или предмет, которые вы видите в пределах дистанции. Выберите либо существо, либо предмет, который никто не несёт и не носит. Если цель хочет, она может совершить спасбросок Телосложения. При успехе заклинание не оказывает на неё никакого влияния.",
+      "Если цель — существо, всё, что она носит и несёт, изменяет размер вместе с ней. Все, что это существо бросит, тут же обретает свой нормальный размер.",
+      "***Увеличение.*** Размеры цели удваиваются по всем измерениям, а вес увеличивается в восемь раз. Это увеличивает размер на одну категорию — от Среднего до Большого, например. Если для цели не хватает пространства, она приобретает максимально возможный размер. Пока заклинание активно, цель совершает с преимуществом проверки и спасброски Силы. Оружие цели тоже увеличивается. Атаки увеличенным оружием дополнительно причиняют 1к4 урона.",
+      "***Уменьшение.*** Размеры цели уменьшаются вдвое по всем измерениям, а вес уменьшается до одной восьмой от обычного. Это уменьшает размер на одну категорию — от Среднего до Маленького, например. Пока заклинание активно, цель совершает с помехой проверки и спасброски Силы. Оружие цели тоже уменьшается. Атаки уменьшенным оружием причиняют на 1к4 меньше урона (урон не может быть меньше 1)."
     ],
     "range": "30 футов",
     "components": [
@@ -5347,11 +5376,12 @@
   },
   {
     "index": "entangle",
-    "name": "Entangle",
+    "name": "Опутывание",
+    "name_en": "Entangle",
     "desc": [
-      "Grasping weeds and vines sprout from the ground in a 20-foot square starting form a point within range. For the duration, these plants turn the ground in the area into difficult terrain.",
-      "A creature in the area when you cast the spell must succeed on a strength saving throw or be restrained by the entangling plants until the spell ends. A creature restrained by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself.",
-      "When the spell ends, the conjured plants wilt away."
+      "Из точки на земле в пределах дистанции на площади квадрата с длиной стороны в 20 футов вырастают цепкие травы и плети. Пока заклинание активно, эти растения превращают землю в труднопроходимую местность.",
+      "Существа, находящиеся в этой области, когда вы накладываете заклинание, должны преуспеть в спасброске Силы, иначе они станут опутанными растениями до окончания действия заклинания. Опутанное растениями существо может действием совершать проверки Силы против Сл ваших заклинаний. В случае успеха оно освобождается.",
+      "Когда заклинание оканчивается, вызванные растения увядают."
     ],
     "range": "90 футов",
     "components": [
@@ -5398,9 +5428,10 @@
   },
   {
     "index": "enthrall",
-    "name": "Enthrall",
+    "name": "Речь златоуста",
+    "name_en": "Enthrall",
     "desc": [
-      "You weave a distracting string of words, causing creatures of your choice that you can see within range and that can hear you to make a wisdom saving throw. Any creature that can't be charmed succeeds on this saving throw automatically, and if you or your companions are fighting a creature, it has advantage on the save. On a failed save, the target has disadvantage on Wisdom (Perception) checks made to perceive any creature other than you until the spell ends or until the target can no longer hear you. The spell ends if you are incapacitated or can no longer speak."
+      "Вы произносите отвлекающую речь, заставляя выбранных вами существ, которых вы видите в пределах дистанции, и которые при этом могут слышать вас, совершить спасбросок Мудрости. Существа, которые не могут быть очарованными, автоматически преуспевают в спасброске, и если вы или ваши спутники сражаетесь с существом, оно совершает спасбросок с преимуществом. При провале цель получает помеху к проверкам Мудрости (Восприятие), совершённым для обнаружения других существ кроме вас, пока заклинание активно или пока цель не перестанет вас слышать. Заклинание оканчивается, если вы становитесь недееспособны или теряете возможность говорить."
     ],
     "range": "60 футов",
     "components": [
@@ -5448,16 +5479,17 @@
   },
   {
     "index": "etherealness",
-    "name": "Etherealness",
+    "name": "Эфирность",
+    "name_en": "Etherealness",
     "desc": [
-      "You step into the border regions of the Ethereal Plane, in the area where it overlaps with your current plane. You remain in the Border Ethereal for the duration or until you use your action to dismiss the spell. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can see and hear the plane you originated from, but everything there looks gray, and you can't see anything more than 60 feet away.",
-      "While on the Ethereal Plane, you can only affect and be affected by other creatures on that plane. Creatures that aren't on the Ethereal Plane can't perceive you and can't interact with you, unless a special ability or magic has given them the ability to do so.",
-      "You ignore all objects and effects that aren't on the Ethereal Plane, allowing you to move through objects you perceive on the plane you originated from.",
-      "When the spell ends, you immediately return to the plane you originated from in the spot you currently occupy. If you occupy the same spot as a solid object or creature when this happens, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved.",
-      "This spell has no effect if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes."
+      "Вы вступаете в пограничные окрестности Эфирного плана, в местность, в которой он пересекается с вашим текущим планом. Вы остаётесь в Пограничном Эфире, пока активно заклинание, или пока вы не окончите его действием. Всё это время вы можете перемещаться в любом направлении. Если вы перемещаетесь вверх или вниз, каждый фут перемещения стоит 1 дополнительный фут. Вы можете видеть и слышать то, что происходит на плане, с которого вы пришли, но всё выглядит серым, и вы не видите то, что находится за пределами 60 футов.",
+      "Находясь на Эфирном плане, вы можете воздействовать только на существ, которые находятся там же, и только они могут воздействовать на вас. Существа, не находящиеся на Эфирном плане, не могут воспринимать вас и взаимодействовать с вами, если только у них нет особого умения или магии, позволяющей делать это.",
+      "Вы игнорируете все предметы и эффекты, не находящиеся на Эфирном плане, что позволяет вам проходить сквозь предметы, оставленные на исходном плане.",
+      "Когда заклинание заканчивается, вы мгновенно возвращаетесь на план, с которого пришли, в месте, которое занимаете в данный момент. Если вы при этом находитесь в месте, занятом предметом или существом, вас мгновенно переносит в ближайшее свободное пространство, которое вы можете занимать, и вы получаете урон силовым полем, равный удвоенному количеству футов, на которое вас телепортировало.",
+      "Это заклинание не оказывает эффекта, если вы накладываете его, уже находясь на Эфирном плане или плане, который не граничит с ним, например, на одном из Внешних планов."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 8th level or higher, you can target up to three willing creatures (including you) for each slot level above 7th. The creatures must be within 10 feet of you when you cast the spell."
+      "Если вы накладываете это заклинание, используя ячейку 8-го уровня или выше, вы можете сделать целью до трёх согласных существ (включая вас) за каждый уровень ячейки выше седьмого. Существа должны находиться в пределах 10 футов от вас, когда вы накладываете это заклинание."
     ],
     "range": "На себя",
     "components": [
@@ -5506,9 +5538,10 @@
   },
   {
     "index": "expeditious-retreat",
-    "name": "Expeditious Retreat",
+    "name": "Поспешное отступление",
+    "name_en": "Expeditious Retreat",
     "desc": [
-      "This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action."
+      "Это заклинание позволяет перемещаться с невероятной скоростью. Когда вы накладываете это заклинание, а также бонусным действием в последующие ходы, пока активно заклинание, вы можете совершать действие Рывок."
     ],
     "range": "На себя",
     "components": [
@@ -5553,12 +5586,13 @@
   },
   {
     "index": "eyebite",
-    "name": "Eyebite",
+    "name": "Разящее око",
+    "name_en": "Eyebite",
     "desc": [
-      "For the spell's duration, your eyes become an inky void imbued with dread power. One creature of your choice within 60 feet of you that you can see must succeed on a wisdom saving throw or be affected by one of the following effects of your choice for the duration. On each of your turns until the spell ends, you can use your action to target another creature but can't target a creature again if it has succeeded on a saving throw against this casting of eyebite.",
-      "***Asleep.*** The target falls unconscious. It wakes up if it takes any damage or if another creature uses its action to shake the sleeper awake.",
-      "***Panicked.*** The target is frightened of you. On each of its turns, the frightened creature must take the Dash action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.",
-      "***Sickened.*** The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another wisdom saving throw. If it succeeds, the effect ends."
+      "Пока заклинание активно, ваши глаза становятся абсолютно чёрными, наполнившись жуткой энергией. Одно существо на ваш выбор в пределах 60 футов от вас, которое вы видите, должно преуспеть в спасброске Мудрости, иначе на время длительности заклинания оно попадает под действие одного из выбранных вами эффектов. В каждый свой ход, пока заклинание активно, вы можете действием нацелиться на другое существо, если только оно не совершило успешный спасбросок от этого разящего ока.",
+      "***Сон.*** Цель теряет сознание. Она просыпается, если получает урон или другое существо действием потрясёт его, чтобы разбудить.",
+      "***Паника.*** Цель испугана вами. В каждый свой ход испуганное существо должно совершать действие Рывок и перемещаться прочь от вас по самому безопасному и короткому из возможных маршруту, если ей есть куда перемещаться. Если цель окажется на расстоянии как минимум 60 футов от вас, в месте, в котором ей вас не видно, этот эффект заканчивается.",
+      "***Слабость.*** Цель совершает с помехой броски атаки и проверки характеристик. В конце каждого своего хода она сможет совершить ещё один спасбросок Мудрости. В случае успеха эффект заканчивается."
     ],
     "range": "На себя",
     "components": [
@@ -5577,7 +5611,7 @@
         "url": "/api/2014/ability-scores/wis"
       },
       "dc_success": "ничего",
-      "desc": "On failure, the target can be affected by one of the following effects of your choice for the duration. [Asleep. The target falls unconscious. It wakes up if it takes any damage or if another creature uses its action to shake the sleeper awake.] [Panicked. The target is frightened of you. On each of its turns, the frightened creature must take the Dash action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.] [Sickened. The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another wisdom saving throw. If it succeeds, the effect ends.]"
+      "desc": "В случае провала цель попадает под действие одного из следующих эффектов на ваш выбор на время действия заклинания. [Сон. Цель теряет сознание. Она просыпается, если получает урон или другое существо действием потрясёт её, чтобы разбудить.] [Паника. Цель испугана вами. В каждый свой ход испуганное существо должно совершать действие Рывок и перемещаться прочь от вас по самому безопасному и короткому маршруту, если ей есть куда перемещаться. Если цель окажется на расстоянии как минимум 60 футов от вас, в месте, где она вас не видит, этот эффект заканчивается.] [Слабость. Цель совершает с помехой броски атаки и проверки характеристик. В конце каждого своего хода она может совершить ещё один спасбросок Мудрости. В случае успеха эффект заканчивается.]"
     },
     "school": {
       "index": "necromancy",
@@ -5611,11 +5645,12 @@
   },
   {
     "index": "fabricate",
-    "name": "Fabricate",
+    "name": "Изготовление",
+    "name_en": "Fabricate",
     "desc": [
-      "You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, and clothes from flax or wool.",
-      "Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the spell is commensurate with the quality of the raw materials.",
-      "Creatures or magic items can't be created or transmuted by this spell. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of artisan's tools used to craft such objects."
+      "Вы превращаете сырьё в готовое изделие из этого материала. Например, вы можете создать деревянный мост из нескольких деревьев, верёвку из груды пеньки или одежду изо льна или шерсти.",
+      "Выберите сырьё, которое видите в пределах дистанции. Вы можете создать предмет Большого или меньшего размера (помещающийся в куб с длиной ребра 10 футов или восемь соединённых кубов с длиной ребра 5 футов) при условии, что сырья хватит. Если вы работаете с металлом, камнем или другим минеральным материалом, создаваемый предмет не может быть больше Среднего размера (должен помещаться в один куб с длиной ребра 5 футов). Качество предметов, изготавливаемых этим заклинанием, напрямую зависит от качества сырья.",
+      "Этим заклинанием нельзя создавать и изменять существ и магические предметы. Вы также не можете создавать с его помощью предметы, обычно требующие высокого мастерства, такие как ювелирные изделия, оружие, стекло или доспехи, если только вы не владеете ремесленным инструментом, необходимым для создания таких предметов."
     ],
     "range": "120 футов",
     "components": [
@@ -5644,10 +5679,11 @@
   },
   {
     "index": "faerie-fire",
-    "name": "Faerie Fire",
+    "name": "Огонь фей",
+    "name_en": "Faerie Fire",
     "desc": [
-      "Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.",
-      "Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible."
+      "Все предметы в кубе с длиной ребра 20 футов в пределах дистанции подсвечиваются синим, зелёным или фиолетовым цветом (на ваш выбор). Все существа в этой области тоже подсвечиваются, если проваливают спасбросок Ловкости. На время длительности заклинания подсвеченные предметы и существа испускают тусклый свет в радиусе 10 футов.",
+      "Все броски атаки по затронутым существам и предметам совершаются с преимуществом, если атакующий видит их, и эти существа и предметы не получают преимуществ от невидимости."
     ],
     "range": "60 футов",
     "components": [
@@ -5693,11 +5729,12 @@
   },
   {
     "index": "faithful-hound",
-    "name": "Faithful Hound",
+    "name": "Верный пёс",
+    "name_en": "Faithful Hound",
     "desc": [
-      "You conjure a phantom watchdog in an unoccupied space that you can see within range, where it remains for the duration, until you dismiss it as an action, or until you move more than 100 feet away from it.",
-      "The hound is invisible to all creatures except you and can't be harmed. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound sees invisible creatures and can see into the Ethereal Plane. It ignores illusions.",
-      "At the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound's attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals 4d8 piercing damage."
+      "Вы создаёте призрачного сторожевого пса в свободном пространстве, видимом в пределах дистанции, где он и остаётся на время длительности заклинания, пока вы не отпустите его действием или не отойдёте от него более чем на 100 футов.",
+      "Пёс невидим для всех существ кроме вас, и ему нельзя причинить вред. Если в пределах 30 футов от него оказывается существо с размером Маленькое или больше, не произнося при этом пароль, указанный вами при накладывании этого заклинания, пёс начинает громко лаять. Пёс видит невидимых существ, и его зрение простирается на Эфирный план. Он игнорирует иллюзии.",
+      "В начале каждого вашего хода пёс пытается укусить одно враждебное вам существо в пределах 5 футов от себя. Бонус атаки пса равен вашему модификатору базовой характеристики + ваш бонус мастерства. При попадании он причиняет 4к8 колющего урона."
     ],
     "range": "30 футов",
     "components": [
@@ -5739,12 +5776,13 @@
   },
   {
     "index": "false-life",
-    "name": "False Life",
+    "name": "Псевдожизнь",
+    "name_en": "False Life",
     "desc": [
-      "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration."
+      "Укрепив себя некромантским подобием жизни, вы получаете 1к4 + 4 временных хита на время длительности заклинания."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st."
+      "Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, вы получаете 5 дополнительных временных хитов за каждый уровень ячейки выше первого."
     ],
     "range": "На себя",
     "components": [
@@ -5797,10 +5835,11 @@
   },
   {
     "index": "fear",
-    "name": "Fear",
+    "name": "Ужас",
+    "name_en": "Fear",
     "desc": [
-      "You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a wisdom saving throw or drop whatever it is holding and become frightened for the duration.",
-      "While frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a wisdom saving throw. On a successful save, the spell ends for that creature."
+      "Вы проецируете призрачное изображение худших кошмаров других существ. Все существа в 30-футовом конусе должны преуспеть в спасброске Мудрости, иначе они бросают всё, что держат в руках, и становятся испуганными на время действия заклинания.",
+      "Будучи испуганным этим заклинанием, существо должно каждый свой ход совершать действие Рывок, и перемещаться прочь от вас по самому безопасному маршруту, пока у неё есть, куда перемещаться. Если существо оканчивает ход в месте, откуда у него нет линии обзора до вас, оно может совершить спасбросок Мудрости. При успехе заклинание перестает действовать на этом существе."
     ],
     "range": "На себя",
     "components": [
@@ -5821,7 +5860,7 @@
         "url": "/api/2014/ability-scores/wis"
       },
       "dc_success": "ничего",
-      "desc": "On fail, A creature drop whatever it is holding and become frightened for the duration."
+      "desc": "В случае провала существо бросает всё, что держит в руках, и становится испуганным на время действия заклинания."
     },
     "area_of_effect": {
       "type": "cone",
@@ -5865,9 +5904,10 @@
   },
   {
     "index": "feather-fall",
-    "name": "Feather Fall",
+    "name": "Падение пёрышком",
+    "name_en": "Feather Fall",
     "desc": [
-      "Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature."
+      "Выберите до пяти падающих существ в пределах дистанции. До окончания действия заклинания их скорость падения уменьшается до 60 футов в раунд. Если такое существо приземлится до окончания заклинания, оно не получает урон от падения и может приземлиться на ноги, и тогда заклинание оканчивает действие на него."
     ],
     "range": "60 футов",
     "components": [
@@ -5913,12 +5953,13 @@
   },
   {
     "index": "feeblemind",
-    "name": "Feeblemind",
+    "name": "Слабоумие",
+    "name_en": "Feeblemind",
     "desc": [
-      "You blast the mind of a creature that you can see within range, attempting to shatter its intellect and personality. The target takes 4d6 psychic damage and must make an intelligence saving throw.",
-      "On a failed save, the creature's Intelligence and Charisma scores become 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them.",
-      "At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.",
-      "The spell can also be ended by greater restoration, heal, or wish."
+      "Вы врываетесь в сознание существа, которое видите в пределах дистанции, пытаясь подавить его интеллект и сознание. Цель получает 4к6 урона психической энергией и должна совершить спасбросок Интеллекта.",
+      "При провале Интеллект и Харизма существа становятся равны 1. Оно не может накладывать заклинания, активировать магические предметы, понимать языки и вразумительно общаться. Однако существо признаёт друзей, следует за ними и даже защищает их.",
+      "В конце каждых 30 дней существо может повторять спасбросок от этого заклинания. Если оно преуспевает, заклинание оканчивается.",
+      "Это заклинание также оканчивается заклинаниями высшее восстановление, полное исцеление или исполнение желаний."
     ],
     "range": "150 футов",
     "components": [
@@ -5949,7 +5990,7 @@
         "url": "/api/2014/ability-scores/int"
       },
       "dc_success": "другое",
-      "desc": "The target always takes the damage. On a failed save, the creature's Intelligence and Charisma scores become 1."
+      "desc": "Цель всегда получает урон. При провале Интеллект и Харизма существа становятся равны 1."
     },
     "school": {
       "index": "enchantment",
@@ -5983,15 +6024,16 @@
   },
   {
     "index": "find-familiar",
-    "name": "Find Familiar",
+    "name": "Поиск фамильяра",
+    "name_en": "Find Familiar",
     "desc": [
-      "You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.",
-      "Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.",
-      "When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.",
-      "While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.",
-      "As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
-      "You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
-      "Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your action modifier for the roll."
+      "Вы получаете в услужение фамильяра — духа, принимающего облик выбранного вами животного: летучей мыши, кошки, краба, лягушки (жабы), ястреба, ящерицы, осьминога, совы, ядовитой змеи, рыбки (квиппера), крысы, ворона, морского конька, паука или ласки. Появляясь в незанятом пространстве в пределах дистанции, фамильяр обладает характеристиками выбранного облика, хотя он не Зверь, а Исчадие, Небожитель или Фея (по вашему выбору).",
+      "Ваш фамильяр действует независимо от вас, но всегда повинуется вашим командам. В сражении он определяет свою инициативу и действует в свой ход. Фамильяр не может атаковать, но может совершать другие действия как обычно.",
+      "Когда хиты фамильяра опускаются до 0, он исчезает, не оставляя физического тела. Он возвращается, когда вы используете это заклинание ещё раз.",
+      "Пока ваш фамильяр находится в пределах 100 футов, вы можете общаться с ним телепатически. Кроме того, вы можете действием начать смотреть глазами фамильяра и слушать его ушами до начала своего следующего хода, получая преимущество от особых чувств, которыми может обладать фамильяр. В это время для своих собственных чувств вы слепы и глухи.",
+      "Вы можете действием временно отпустить своего фамильяра. Тот исчезает в карманном измерении, где будет ждать, пока вы его не призовете. В качестве альтернативы, вы можете отпустить его насовсем. Пока фамильяр временно отпущен, вы можете действием вернуть его в свободное пространство в пределах 30 футов от себя.",
+      "У вас не может быть больше одного фамильяра одновременно. Если вы накладываете это заклинание, уже имея фамильяра, вы заставляете принять его новый облик. Выберите один из описанных выше обликов. Ваш фамильяр становится этим существом.",
+      "Если вы накладываете заклинание с дистанцией «касание», его может передать фамильяр, как если бы это он его накладывал. Ваш фамильяр должен при этом находиться в пределах 100 футов от вас, и он использует свою реакцию, когда вы накладываете его. Если заклинание требует броска атаки, вы используете свой модификатор атаки."
     ],
     "range": "10 футов",
     "components": [
@@ -6022,13 +6064,14 @@
   },
   {
     "index": "find-steed",
-    "name": "Find Steed",
+    "name": "Поиск скакуна",
+    "name_en": "Find Steed",
     "desc": [
-      "You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose, such as a warhorse, a pony, a camel, an elk, or a mastiff. (Your GM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.",
-      "Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, you can make any spell you cast that targets only you also target your steed.",
-      "When the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an action, causing it to disappear. In either case, casting this spell again summons the same steed, restored to its hit point maximum.",
-      "While your steed is within 1 mile of you, you can communicate with it telepathically.",
-      "You can't have more than one steed bonded by this spell at a time. As an action, you can release the steed from its bond at any time, causing it to disappear."
+      "Вы вызываете дух, принимающий облик невероятно умного, сильного и верного скакуна, создавая долгосрочную связь с ним. Появляясь в свободном пространстве в пределах дистанции, скакун принимает выбранный вами облик, такой как боевой конь, пони, верблюд, лось или мастиф (Мастер может позволить призывать в качестве скакуна других животных). Скакун приобретает характеристики выбранной формы, хотя на самом деле он является Исчадием, Небожителем или Феей (по вашему выбору). Кроме того, если у вашего скакуна Интеллект 5 или меньше, его Интеллект становится равен 6, и он получает способность понимать один язык на ваш выбор, на котором вы разговариваете.",
+      "Ваш скакун служит вам как в бою, так и вне его, и у вас с ним есть инстинктивная связь, позволяющая сражаться как единое целое. Находясь верхом на скакуне, вы можете делать так, что наложенные вами заклинания, нацеливающиеся только на вас, будут нацелены ещё и на скакуна.",
+      "Когда хиты скакуна опускаются до 0, он исчезает, не оставляя физического тела. Вы можете также в любое время отпустить скакуна действием, заставляя его исчезнуть. В любом случае, повторное использование этого заклинания призывает этого же скакуна, восстанавливая хиты до максимума.",
+      "Пока скакун находится в пределах 1 мили от вас, вы можете общаться друг с другом телепатически.",
+      "У вас не может быть больше одного скакуна, призванного этим заклинанием, одновременно. Вы можете действием навсегда отпустить скакуна, освободив его от уз и заставляя исчезнуть."
     ],
     "range": "30 футов",
     "components": [
@@ -6063,10 +6106,11 @@
   },
   {
     "index": "find-traps",
-    "name": "Find Traps",
+    "name": "Поиск ловушек",
+    "name_en": "Find Traps",
     "desc": [
-      "You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.",
-      "This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense."
+      "Вы чувствуете присутствие любых ловушек в пределах дистанции, находящихся в пределах линии обзора. Для этого заклинания ловушкой считается всё, что причиняет неожиданный эффект, считающийся для вас вредным или нежелательным, и специально подготовленный таким своим создателем. Таким образом, это заклинание почувствует область, защищённую заклинанием сигнал тревоги, охранные руны или механической ловушкой, но не распознает ветхий пол, неустойчивый потолок, или промоину в земле.",
+      "Это заклинание просто даёт знать, что ловушка присутствует. Вы не узнаёте местоположение всех ловушек, но зато знаете общий характер опасности, исходящей от почувствованной вами ловушки."
     ],
     "range": "120 футов",
     "components": [
@@ -6111,10 +6155,11 @@
   },
   {
     "index": "find-the-path",
-    "name": "Find the Path",
+    "name": "Поиск пути",
+    "name_en": "Find the Path",
     "desc": [
-      "This spell allows you to find the shortest, most direct physical route to a specific fixed location that you are familiar with on the same plane of existence. If you name a destination on another plane of existence, a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as \"a green dragon's lair\"), the spell fails.",
-      "For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination."
+      "Это заклинание позволяет найти кратчайший и самый прямой путь к определённому месту, знакомому вам, находящемуся на том же плане существования. Если искомое место находится на другом плане существования, если это место перемещается (например, это передвижная крепость), или это не конкретное место (например, «логово зелёного дракона»), заклинание проваливается.",
+      "Пока заклинание активно, и пока вы находитесь на одном плане существования с искомым местом, вы знаете, как далеко, и в каком направлении оно находится. Пока вы направляетесь туда, каждый раз, когда у вас появляются разные варианты направления, вы автоматически определяете, какой путь самый короткий и прямой (но не обязательно самый безопасный) к искомому месту."
     ],
     "range": "На себя",
     "components": [
@@ -6155,10 +6200,11 @@
   },
   {
     "index": "finger-of-death",
-    "name": "Finger of Death",
+    "name": "Перст смерти",
+    "name_en": "Finger of Death",
     "desc": [
-      "You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a constitution saving throw. It takes 7d8 + 30 necrotic damage on a failed save, or half as much damage on a successful one.",
-      "A humanoid killed by this spell rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability."
+      "Вы посылаете негативную энергию в видимое вами существо в пределах дистанции, вызывая у него сильную боль. Цель должна совершить спасбросок Телосложения. При провале она получает 7к8 + 30 урона некротической энергией или половину этого урона при успехе.",
+      "Гуманоид, убитый этим заклинанием, воскресает в начале вашего следующего хода как зомби, постоянно находящийся под вашим командованием и выполняющий ваши устные команды."
     ],
     "range": "60 футов",
     "components": [
@@ -6215,10 +6261,11 @@
   },
   {
     "index": "fire-bolt",
-    "name": "Fire Bolt",
+    "name": "Огненный снаряд",
+    "name_en": "Fire Bolt",
     "desc": [
-      "You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
-      "This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
+      "Вы кидаете сгусток огня в существо или предмет в пределах дистанции. Совершите по цели дальнобойную атаку заклинанием. При попадании цель получает урон огнём 1к10. Горючие предметы, по которым попало это заклинание, воспламеняются, если их никто не несет и не носит.",
+      "Урон этого заклинания увеличивается на 1к10, когда вы достигаете 5-го уровня (2к10), 11-го уровня (3к10), 17-го уровня (4к10)."
     ],
     "range": "120 футов",
     "components": [
@@ -6266,11 +6313,12 @@
   },
   {
     "index": "fire-shield",
-    "name": "Fire Shield",
+    "name": "Огненный щит",
+    "name_en": "Fire Shield",
     "desc": [
-      "Thin and vaporous flame surround your body for the duration of the spell, radiating a bright light bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell using an action to make it disappear.",
-      "The flames are around you a heat shield or cold, your choice. The heat shield gives you cold damage resistance and the cold resistance to fire damage.",
-      "In addition, whenever a creature within 5 feet of you hits you with a melee attack, flames spring from the shield. The attacker then suffers 2d8 points of fire damage or cold, depending on the model."
+      "На время длительности заклинания ваше тело покрывается тонким слоем пламени, испускающим яркий свет в пределах 10-футового радиуса и тусклый свет в пределах ещё 10 футов. Вы можете досрочно окончить это заклинание действием.",
+      "Это пламя предоставляет вам либо теплый щит, либо прохладный щит, на ваш выбор. Теплый щит даёт вам сопротивление урону холодом, а прохладный щит даёт сопротивление урону огнём.",
+      "Кроме того, каждый раз, когда существо, находящееся в пределах 5 футов от вас, попадает по вам рукопашной атакой, щит испускает пламя. Атакующий получает 2к8 урона огнём в случае теплого щита или 2к8 урона холодом в случае прохладного щита."
     ],
     "range": "На себя",
     "components": [
@@ -6321,10 +6369,11 @@
   },
   {
     "index": "fire-storm",
-    "name": "Fire Storm",
+    "name": "Огненная буря",
+    "name_en": "Fire Storm",
     "desc": [
-      "A storm made up of sheets of roaring flame appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a dexterity saving throw. It takes 7d10 fire damage on a failed save, or half as much damage on a successful one.",
-      "The fire damages objects in the area and ignites flammable objects that aren't being worn or carried. If you choose, plant life in the area is unaffected by this spell."
+      "В выбранном вами в пределах дистанции пространстве начинается огненная буря. Область бури состоит из вплоть до 10 кубов с длиной ребра 10 футов, которые вы можете располагать как вам захочется. Каждый куб должен иметь хотя бы одну общую грань с другим кубом. Все существа в этом пространстве должны совершить спасбросок Ловкости. Они получают 7к10 урона огнём при провале или половину этого урона при успехе.",
+      "Этот урон повреждает предметы и воспламеняет горючие предметы, которые никто не несёт и не носит. Если хотите, растения не будут затронуты этим заклинанием."
     ],
     "range": "150 футов",
     "components": [
@@ -6385,13 +6434,14 @@
   },
   {
     "index": "fireball",
-    "name": "Огоньball",
+    "name": "Огненный шар",
+    "name_en": "Fireball",
     "desc": [
-      "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.",
-      "The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
+      "Яркий луч вылетает из вашего указательного пальца в точку, выбранную вами в пределах дистанции, где и происходит взрыв пламени с гулким ревом. Все существа в пределах сферы с радиусом 20 футов с центром в этой точке должны совершить спасбросок Ловкости. Цель получает 8к6 урона огнём при провале или половину этого урона при успехе.",
+      "Этот огонь огибает углы. Он воспламеняет горючие предметы, которые никто не несет и не носит."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+      "Если вы накладываете это заклинание, используя ячейку 4-го уровня или выше, урон увеличивается на 1к6 за каждый уровень ячейки выше третьего."
     ],
     "range": "150 футов",
     "components": [
@@ -6466,14 +6516,15 @@
   },
   {
     "index": "flame-blade",
-    "name": "Flame Blade",
+    "name": "Горящий клинок",
+    "name_en": "Flame Blade",
     "desc": [
-      "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.",
-      "You can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.",
-      "The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+      "Вы создаёте горящий клинок в свободной руке. Этот клинок похож размерами и формой на скимитар, и он существует, пока заклинание активно. Если вы выпустите клинок из рук, он исчезает, но вы можете вернуть его в руку бонусным действием.",
+      "Действием вы можете совершить рукопашную атаку заклинанием с использованием этого клинка. При попадании цель получает 3к6 урона огнём.",
+      "Горящий клинок испускает яркий свет в пределах 10 футов и тусклый свет в пределах ещё 10 футов."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd."
+      "Если вы накладываете это заклинание, используя ячейку 4-го уровня или выше, урон увеличивается на 1к6 за каждые два уровня ячейки выше 2-го."
     ],
     "range": "На себя",
     "components": [
@@ -6523,12 +6574,13 @@
   },
   {
     "index": "flame-strike",
-    "name": "Flame Strike",
+    "name": "Небесный огонь",
+    "name_en": "Flame Strike",
     "desc": [
-      "A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within range must make a dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one."
+      "В указанном вами месте возникает вертикальная колонна божественного пламени. Все существа в цилиндре с радиусом 10 футов и высотой 40 футов с центром на точке в пределах дистанции должны совершить спасбросок Ловкости. При провале существо получает 4к6 урона излучением и 4к6 урона огнём, а при успехе половину этого урона."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by 1d6 for each slot level above 5th."
+      "Если вы накладываете это заклинание, используя ячейку 6-го уровня или выше, урон излучением или урон огнём (на ваш выбор) увеличивается на 1к6 за каждый уровень ячейки выше пятого."
     ],
     "range": "60 футов",
     "components": [
@@ -6596,14 +6648,15 @@
   },
   {
     "index": "flaming-sphere",
-    "name": "Flaming Sphere",
+    "name": "Пылающий шар",
+    "name_en": "Flaming Sphere",
     "desc": [
-      "A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.",
-      "As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn.",
-      "When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+      "В свободном пространстве на ваш выбор в пределах дистанции появляется шар из огня с диаметром 5 футов, существующий, пока активно заклинание. Все существа, оканчивающие ход в пределах 5 футов от шара, должны совершать спасбросок Ловкости. Существа получают урон огнём 2к6 при провале или половину этого урона при успехе.",
+      "Вы можете бонусным действием переместить шар на 30 футов. Если вы тараните шаром существо, это существо должно совершить спасбросок от урона шара, и шар останавливается до конца этого хода.",
+      "Когда вы перемещаете шар, вы можете поднимать его над препятствиями до 5 футов в высоту и перепрыгивать им разломы до 10 футов в длину. Шар поджигает горючие предметы, которые никто не несет и не носит, и испускает яркий свет в пределах 20 футов и тусклый свет в пределах ещё 20 футов."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd."
+      "Если вы накладываете это заклинание, используя ячейку 3-го уровня или выше, урон увеличивается на 1к6 за каждый уровень ячейки выше второго."
     ],
     "range": "60 футов",
     "components": [
@@ -6662,12 +6715,13 @@
   },
   {
     "index": "flesh-to-stone",
-    "name": "Flesh to Stone",
+    "name": "Окаменение",
+    "name_en": "Flesh to Stone",
     "desc": [
-      "You attempt to turn one creature that you can see within range into stone. If the target's body is made of flesh, the creature must make a constitution saving throw. On a failed save, it is restrained as its flesh begins to harden. On a successful save, the creature isn't affected.",
-      "A creature restrained by this spell must make another constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the petrified condition for the duration. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.",
-      "If the creature is physically broken while petrified, it suffers from similar deformities if it reverts to its original state.",
-      "If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed."
+      "Вы пытаетесь сделать каменным одно существо, которое видите в пределах дистанции. Если тело цели состоит из плоти, она должна совершить спасбросок Телосложения. При провале она становится опутанной, так как плоть начинает отвердевать. При успехе существо не попадает под действие заклинания.",
+      "Существо, опутанное этим заклинанием, должно совершать спасброски Телосложения в конце каждого своего хода. Если оно преуспело в спасброске от этого заклинания три раза, оно оканчивается. Если оно провалит спасбросок три раза, оно превращается в камень и получает состояние окаменевшее на время длительности заклинания. Успехи и провалы не обязаны быть последовательными; отслеживайте их отдельно, пока не накопится три вида чего-то одного.",
+      "Если существо физически ломается, будучи окаменевшим, при возвращении в обычное тело оно сохраняет все полученные деформации.",
+      "Если вы сохраняете концентрацию на этом заклинании до максимально возможного времени, существо становится окаменевшим до снятия эффекта."
     ],
     "range": "60 футов",
     "components": [
@@ -6712,11 +6766,12 @@
   },
   {
     "index": "floating-disk",
-    "name": "Floating Disk",
+    "name": "Тензеров парящий диск",
+    "name_en": "Floating Disk",
     "desc": [
-      "This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.",
-      "The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. If can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.",
-      "If you move more than 100 feet away from the disk (typically because it can't move around an obstacle to follow you), the spell ends."
+      "Это заклинание создает круглый горизонтальный диск из силового поля диаметром 3 фута и толщиной 1 дюйм, парящий в 3 футах над полом в свободном пространстве на ваш выбор, видимом в пределах дистанции. Диск существует, пока заклинание активно, и может вынести на себе 500 фунтов. Если на него поместить больший вес, заклинание окончится, и все, что было на диске, падает на пол.",
+      "Диск неподвижен, пока вы находитесь в пределах 20 футов от него. Если вы переместитесь от него на расстояние, превышающее 20 футов, диск следует за вами, оставаясь в пределах 20 футов. Он может перемещаться по неровной поверхности, по лестницам, склонам и подобным препятствиям, но не может пересекать перепады по высоте в 10 футов и более. Например, диск не сможет перелететь над 10-футовой ямой, и не сможет из неё выбраться, если будет создан на её дне.",
+      "Если вы переместитесь более чем на 100 футов от диска (например, если он из-за препятствия не сможет последовать за вами), заклинание оканчивается."
     ],
     "range": "30 футов",
     "components": [
@@ -6753,12 +6808,13 @@
   },
   {
     "index": "fly",
-    "name": "Fly",
+    "name": "Полёт",
+    "name_en": "Fly",
     "desc": [
-      "You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall."
+      "Вы касаетесь согласного существа. Пока заклинание активно, цель получает скорость полёта 60 футов. Когда заклинание оканчивается, цель падает, если всё ещё находится в полёте и ничем не может остановить падение."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+      "Если вы накладываете это заклинание, используя ячейку 4-го уровня или выше, вы можете сделать целью одно дополнительное существо за каждый уровень ячейки выше 3-го."
     ],
     "range": "Касание",
     "components": [
@@ -6805,12 +6861,13 @@
   },
   {
     "index": "fog-cloud",
-    "name": "Fog Cloud",
+    "name": "Туманное облако",
+    "name_en": "Fog Cloud",
     "desc": [
-      "You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
+      "Вы создаете сферу с радиусом 20 футов из тумана с центром на точке в пределах дистанции. Сфера обходит углы, и её пространство — сильно заслонённая местность. Она существует до окончания действия заклинания, или пока её не рассеет ветер (со скоростью как минимум 10 миль в час)."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st."
+      "Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, радиус тумана увеличивается на 20 футов за каждый уровень ячейки выше первого."
     ],
     "range": "120 футов",
     "components": [
@@ -6864,12 +6921,13 @@
   },
   {
     "index": "forbiddance",
-    "name": "Forbiddance",
+    "name": "Запрет",
+    "name_en": "Forbiddance",
     "desc": [
-      "You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the gate spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the plane shift spell.",
-      "In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: celestials, elementals, fey, fiends, and undead. When a chosen creature enters the spell's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell).",
-      "When you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell.",
-      "The spell's area can't overlap with the area of another forbiddance spell. If you cast forbiddance every day for 30 days in the same location, the spell lasts until it is dispelled, and the material components are consumed on the last casting."
+      "Вы создаёте защиту от магического перемещения, покрывающую до 40 000 квадратных футов пола и 30 футов над полом. Пока заклинание активно, существа не могут телепортироваться в эту область и использовать порталы, например, созданные заклинанием 'врата', чтобы входить в эту область. Это заклинание предотвращает и перемещения между планами, поэтому защищает от перемещений с Астрального плана, Эфирного плана, из Страны Фей, Царства Теней, а также от заклинания 'уход в иной мир'.",
+      "Кроме того, это заклинание причиняет урон всем существам вида, выбираемого вами при его накладывании. Выберите один или несколько видов существ: Исчадия, Небожители, Нежить, Феи и Элементали. Когда существо выбранного вида впервые за ход входит в пространство заклинания или начинает в нём ход, оно получает урон лучистый или некротической энергией 5к10 (вид урона выбираете вы при накладывании заклинания).",
+      "Когда вы накладываете это заклинание, можете указать пароль. Существо, произносящее пароль при входе в эту местность, не получает урон от этого заклинания.",
+      "Пространство этого заклинания не может перекрываться с пространством другого заклинания запрет. Если вы накладываете заклинание запрет каждый день в течение 30 дней в одном и том же месте, заклинание длится, пока не будет рассеяно, и материальные компоненты последнего накладывания тратятся."
     ],
     "range": "Касание",
     "components": [
@@ -6904,14 +6962,15 @@
   },
   {
     "index": "forcecage",
-    "name": "Forcecage",
+    "name": "Узилище",
+    "name_en": "Forcecage",
     "desc": [
-      "An immobile, invisible, cube-shaped prison composed of magical force springs into existence around an area you choose within range. The prison can be a cage or a solid box, as you choose.",
-      "A prison in the shape of a cage can be up to 20 feet on a side and is made from 1/2-inch diameter bars spaced 1/2 inch apart.",
-      "A prison in the shape of a box can be up to 10 feet on a side, creating a solid barrier that prevents any matter from passing through it and blocking any spells cast into or out from the area.",
-      "When you cast the spell, any creature that is completely inside the cage's area is trapped. Creatures only partially within the area, or those too large to fit inside the area, are pushed away from the center of the area until they are completely outside the area.",
-      "A creature inside the cage can't leave it by nonmagical means. If the creature tries to use teleportation or interplanar travel to leave the cage, it must first make a charisma saving throw. On a success, the creature can use that magic to exit the cage. On a failure, the creature can't exit the cage and wastes the use of the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.",
-      "This spell can't be dispelled by dispel magic."
+      "Вокруг области, выбранной вами в пределах дистанции, возникает неподвижная, невидимая тюрьма в форме куба, созданная из магической силы. Тюрьма может быть клеткой или сплошной коробкой, на ваш выбор.",
+      "Тюрьма в форме клетки может быть с длиной ребра до 20 футов, и состоит из сантиметровых прутьев (диаметр 1/2 дюйма), отстоящих друг от друга на 1 сантиметр (1/2 дюйма).",
+      "Тюрьма в форме коробки может быть с длиной ребра до 10 футов, и она является сплошным барьером, останавливающим любую материю, и блокирующую заклинания, накладываемые как внутрь коробки, так и направленные из неё наружу.",
+      "Когда вы накладываете это заклинание, под его действие попадают все существа, находящиеся целиком внутри области. Существа, находящиеся в области лишь частично, или слишком большие для заточения внутри, отталкиваются от центра области, пока не окажутся снаружи.",
+      "Существо, находящееся в узилище, не может покинуть его без помощи магии. Если оно пытается использовать телепортацию или перемещение между планами, оно должно вначале преуспеть в спасброске Харизмы. В случае успеха существо может использовать эту магию для выхода из узилища. При провале существо не может покинуть узилище, и тратит впустую использование заклинания или эффект. Узилище простирается и на Эфирный план, запрещая перемещение через него.",
+      "Это заклинание нельзя рассеять рассеиванием магии."
     ],
     "range": "100 футов",
     "components": [
@@ -6956,10 +7015,11 @@
   },
   {
     "index": "foresight",
-    "name": "Foresight",
+    "name": "Предвидение",
+    "name_en": "Foresight",
     "desc": [
-      "You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.",
-      "This spell immediately ends if you cast it again before its duration ends."
+      "Вы касаетесь согласного существа, даруя ограниченную способность предвидеть будущее. Пока заклинание активно, цель нельзя застать врасплох, и она совершает с преимуществом броски атаки, проверки характеристик и спасброски. Кроме того, пока заклинание активно, другие существа совершают по цели броски атаки с помехой.",
+      "Это заклинание мгновенно оканчивается, если вы наложите его ещё раз до окончания длительности."
     ],
     "range": "Касание",
     "components": [
@@ -7005,10 +7065,11 @@
   },
   {
     "index": "freedom-of-movement",
-    "name": "Freedom of Movement",
+    "name": "Свобода перемещения",
+    "name_en": "Freedom of Movement",
     "desc": [
-      "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.",
-      "The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks."
+      "Вы касаетесь согласного существа. Пока заклинание активно, на перемещения цели не влияет труднопроходимая местность, а заклинания и прочие магические эффекты не могут ни уменьшить её скорость, ни сделать её парализованной или опутанной.",
+      "Цель может также потратить 5 футов перемещения, чтобы автоматически высвободиться из немагических оков, таких как кандалы или захват другого существа. Более того, нахождение под водой не накладывает штрафы на перемещение и атаки цели."
     ],
     "range": "Касание",
     "components": [
@@ -7065,14 +7126,15 @@
   },
   {
     "index": "freezing-sphere",
-    "name": "Freezing Sphere",
+    "name": "Ледяной шар",
+    "name_en": "Freezing Sphere",
     "desc": [
-      "A frigid globe of cold energy streaks from your fingertips to a point of your choice within range, where it explodes in a 60-foot-radius sphere. Each creature within the area must make a constitution saving throw. On a failed save, a creature takes 10d6 cold damage. On a successful save, it takes half as much damage.",
-      "If the globe strikes a body of water or a liquid that is principally water (not including water-based creatures), it freezes the liquid to a depth of 6 inches over an area 30 feet square. This ice lasts for 1 минута. Creatures that were swimming on the surface of frozen water are trapped in the ice. A trapped creature can use an action to make a Strength check against your spell save DC to break free.",
-      "You can refrain from firing the globe after completing the spell, if you wish. A small globe about the size of a sling stone, cool to the touch, appears in your hand. At any time, you or a creature you give the globe to can throw the globe (to a range of 40 feet) or hurl it with a sling (to the sling's normal range). It shatters on impact, with the same effect as the normal casting of the spell. You can also set the globe down without shattering it. After 1 минута, if the globe hasn't already shattered, it explodes."
+      "Шарик холодной энергии слетает с ваших пальцев и устремляется к точке на ваш выбор в пределах дистанции, где взрывается сферой с радиусом 60 футов. Все существа в этой области должны совершить спасбросок Телосложения. Существо получает 10к6 урона холодом при провале и половину этого урона при успехе.",
+      "Если шар попадает в воду или жидкость, состоящую в основном из воды (исключая водных существ), он замораживает жидкость на глубину 6 дюймов (15 см) в пределах квадрата с длиной стороны 30 футов. Лёд существует 1 минуту. Существа, плававшие по поверхности замороженной воды, сковываются льдом. Скованное существо может действием совершать проверки Силы против Сл ваших заклинаний, чтобы высвободиться.",
+      "Если хотите, можете не метать шар после накладывания этого заклинания. В этом случае в вашей руке появляется маленький прохладный шарик размером со снаряд для пращи. В любое время вы или существо, которому вы отдадите шарик, можете метнуть его рукой (дистанция 40 футов) или из пращи (обычная дистанция пращи). При столкновении он взрывается с тем же эффектом, что и при обычном использовании этого заклинания. Вы можете уничтожить шарик, не взрывая его. Через 1 минуту, если шарик ещё не взорвался, он взрывается."
     ],
     "higher_level": [
-      "When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th."
+      "Если вы накладываете это заклинание, используя ячейку 7-го уровня или выше, урон увеличивается на 1к6 за каждый уровень ячейки выше шестого."
     ],
     "range": "300 футов",
     "components": [
@@ -7125,11 +7187,12 @@
   },
   {
     "index": "gaseous-form",
-    "name": "Gaseous Form",
+    "name": "Газообразная форма",
+    "name_en": "Gaseous Form",
     "desc": [
-      "You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.",
-      "While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.",
-      "While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells."
+      "Вы превращаете на время действия заклинания согласное существо, которого касаетесь, а также всё, что оно носит и несёт, в туманное облако. Заклинание оканчивается, если хиты существа опускаются до 0. Бестелесные существа не попадают под действие этого заклинания.",
+      "Пока цель находится в этой форме, единственной её скоростью перемещения становится скорость полёта 10 футов. Цель может входить в пространство других существ и оставаться там. Существо получает сопротивление немагическому урону и совершает с преимуществом спасброски Силы, Ловкости и Телосложения. Цель может проходить через небольшие отверстия и узкие щели, но жидкости для неё считаются твёрдыми поверхностями. Цель не может упасть и остается парить, даже если становится ошеломлённой или недееспособной.",
+      "Находясь в форме туманного облака, цель не может говорить и манипулировать предметами, и все предметы, которые она несёт или носит, нельзя ронять, использовать и вообще как-либо с ними взаимодействовать. Цель не может атаковать и накладывать заклинания."
     ],
     "range": "Касание",
     "components": [
@@ -7181,12 +7244,13 @@
   },
   {
     "index": "gate",
-    "name": "Gate",
+    "name": "Врата",
+    "name_en": "Gate",
     "desc": [
-      "You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration.",
-      "The portal has a front and a back on each plane where it appears. Travel through the portal is possible only by moving through its front. Anything that does so is instantly transported to the other plane, appearing in the unoccupied space nearest to the portal.",
-      "Deities and other planar rulers can prevent portals created by this spell from opening in their presence or anywhere within their domains.",
-      "When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn't work). If that creature is on a plane other than the one you are on, the portal opens in the named creature's immediate vicinity and draws the creature through it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the GM deems appropriate. It might leave, attack you, or help you."
+      "Вы создаёте портал, соединяющий свободное пространство, видимое вами в пределах дистанции, с точным местом на другом плане существования. Портал представляет собой круглое отверстие, которое может быть диаметром от 5 до 20 футов. Вы можете ориентировать портал в любом направлении. Портал существует, пока заклинание активно.",
+      "На каждом плане у портала есть передняя и задняя сторона. Путешествовать через портал можно только проходя через его переднюю часть. Всё, что так проходит, мгновенно перемещается на другой план, появляясь в свободном пространстве рядом с порталом.",
+      "Божества и другие планарные правители могут предотвращать создание порталов этим заклинанием в их присутствии или где угодно в пределах их домена.",
+      "Когда вы накладываете это заклинание, вы можете назвать имя конкретного существа (псевдоним, титул или прозвище не подходят). Если это существо находится на другом плане, портал открывается непосредственно возле него, и это существо втягивается, оказываясь в ближайшем свободном пространстве с вашей стороны портала. Вы не получаете над ним никакого особого контроля, и оно может действовать так, как сочтёт нужным Мастер. Оно может уйти, может напасть на вас, а может помочь вам."
     ],
     "range": "60 футов",
     "components": [
