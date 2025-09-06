@@ -1,4 +1,4 @@
-name: Build and Push 5e-database-ru Docker image
+name: Build and Push Docker images
 
 on:
   workflow_dispatch:
