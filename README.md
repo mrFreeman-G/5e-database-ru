@@ -25,7 +25,7 @@
 - [ ] `0%` 5e-SRD-Rule-Sections.json
 - [ ] `0%` 5e-SRD-Rules.json
 - [ ] `0%` 5e-SRD-Skills.json
-- [ ] `20%` 5e-SRD-Spells.json
+- [ ] `50%` 5e-SRD-Spells.json
 - [ ] `0%` 5e-SRD-Subclasses.json
 - [ ] `0%` 5e-SRD-Subraces.json
 - [ ] `0%` 5e-SRD-Traits.json
