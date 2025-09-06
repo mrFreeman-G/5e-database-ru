@@ -820,7 +820,7 @@
     "damage": {
       "damage_type": {
         "index": "force",
-        "name": "Силовое поле",
+        "name": "Силовой",
         "url": "/api/2014/damage-types/force"
       },
       "damage_at_slot_level": {
@@ -4454,7 +4454,7 @@
     "damage": {
       "damage_type": {
         "index": "force",
-        "name": "Force",
+        "name": "Силовой",
         "url": "/api/2014/damage-types/force"
       },
       "damage_at_slot_level": {
@@ -4569,7 +4569,7 @@
     "damage": {
       "damage_type": {
         "index": "force",
-        "name": "Force",
+        "name": "Силовой",
         "url": "/api/2014/damage-types/force"
       },
       "damage_at_slot_level": {
@@ -5223,7 +5223,7 @@
     "damage": {
       "damage_type": {
         "index": "force",
-        "name": "Force",
+        "name": "Силовой",
         "url": "/api/2014/damage-types/force"
       },
       "damage_at_character_level": {
@@ -10405,7 +10405,7 @@
     "damage": {
       "damage_type": {
         "index": "force",
-        "name": "Force",
+        "name": "Силовой",
         "url": "/api/2014/damage-types/force"
       },
       "damage_at_slot_level": {
@@ -14978,7 +14978,7 @@
     "damage": {
       "damage_type": {
         "index": "force",
-        "name": "Force",
+        "name": "Силовой",
         "url": "/api/2014/damage-types/force"
       },
       "damage_at_slot_level": {
