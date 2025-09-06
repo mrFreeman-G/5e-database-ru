@@ -5,7 +5,7 @@
 
 ### Прогресс:
 2014:
-- [ ] `20%` 5e-SRD-Ability-Scores.json
+- [ ] `0%` 5e-SRD-Ability-Scores.json
 - [ ] `0%` 5e-SRD-Alignments.json
 - [ ] `0%` 5e-SRD-Backgrounds.json
 - [ ] `0%` 5e-SRD-Classes.json
@@ -25,7 +25,7 @@
 - [ ] `0%` 5e-SRD-Rule-Sections.json
 - [ ] `0%` 5e-SRD-Rules.json
 - [ ] `0%` 5e-SRD-Skills.json
-- [ ] `0%` 5e-SRD-Spells.json
+- [ ] `20%` 5e-SRD-Spells.json
 - [ ] `0%` 5e-SRD-Subclasses.json
 - [ ] `0%` 5e-SRD-Subraces.json
 - [ ] `0%` 5e-SRD-Traits.json
