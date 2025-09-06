@@ -42,6 +42,26 @@
 - [ ] `0%` 5e-SRD-Weapon-Mastery-Properties.json
 - [ ] `0%` 5e-SRD-Weapon-Properties.json
 
+# Сборка/использование образа
+
+- Соберите докер образ (или наполните свою БД через скрипт, инструкция по наполнению данными ниже)
+- Опублкуйте образ в DockerHub или GitHub Container Registry
+- ### DockerHub
+  - Залогиньтесь в Docker Hub: `docker login`
+  - Переименуйте образ для публикации: `docker tag 5e-database-ru <ваш_логин>/<имя_образа>:latest`
+  - Отправьте образ в репозиторий: `docker push <ваш_логин>/<имя_образа>:latest`
+  - Используйте образ:
+    - `docker pull <ваш_логин>/<имя_образа>:latest`
+    - `docker run -d --name 5e-database-ru -p 27017:27017 <ваш_логин>/<имя_образа>:latest`
+- ### GitHub Container Registry
+  - Войдите в GHCR: `echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin`
+  - Переименуйте образ: `docker tag 5e-database-ru ghcr.io/USERNAME/5e-database-ru:latest`
+  - Отправьте образ: `docker push ghcr.io/USERNAME/5e-database-ru:latest`
+  - Используйте образ:
+    - `docker pull ghcr.io/USERNAME/5e-database-ru:latest`
+    - `docker run -d --name 5e-database-ru -p 27017:27017 ghcr.io/USERNAME/5e-database-ru:latest`
+
+---
 
 # 5e-database
 
