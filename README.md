@@ -5,7 +5,7 @@
 
 ### Прогресс:
 2014:
-- [ ] `0%` 5e-SRD-Ability-Scores.json
+- [ ] `20%` 5e-SRD-Ability-Scores.json
 - [ ] `0%` 5e-SRD-Alignments.json
 - [ ] `0%` 5e-SRD-Backgrounds.json
 - [ ] `0%` 5e-SRD-Classes.json
