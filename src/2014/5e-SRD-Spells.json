@@ -539,7 +539,7 @@
       "Барьер существует всё время, пока активно заклинание. Этот барьер не даёт указанным существам проходить и тянуться через него. Указанные существа могут накладывать заклинания и совершать атаки сквозь преграду дальнобойным оружием и оружием со свойством «досягаемость».",
       "Если вы перемещаетесь так, что указанное существо будет вынуждено пройти сквозь барьер, заклинание оканчивается."
     ],
-    "range": "На себя (10-футовый радиус)",
+    "range": "На себя",
     "components": [
       "В",
       "С"
@@ -584,7 +584,7 @@
       "***Существа и предметы.*** Существа и предметы, призванные или созданные магией, временно прекращают существовать, пока они находятся в сфере. Существа возвращаются обратно, когда сфера покидает место, занимаемое ими до исчезновения.",
       "***Рассеивание магии.*** Заклинания и магические эффекты, такие как рассеивание магии, не оказывают на сферу никакого воздействия. Сферы, созданные разными заклинаниями преграда магии, не отменяют друг друга."
     ],
-    "range": "На себя (10-футовый радиус)",
+    "range": "На себя",
     "components": [
       "В",
       "С",
@@ -678,9 +678,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of bat fur.",
     "ritual": false,
@@ -1781,7 +1781,7 @@
     "higher_level": [
       "Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, урон увеличивается на 1к6 за каждый уровень ячейки выше первого."
     ],
-    "range": "На себя (15-футовый конус)",
+    "range": "На себя",
     "components": [
       "В",
       "С"
@@ -2421,7 +2421,7 @@
     "higher_level": [
       "Если вы накладываете это заклинание, используя ячейку 2-го уровня или выше, бросайте дополнительно 2к10 за каждый уровень ячейки выше первого."
     ],
-    "range": "На себя (15-футовый конус)",
+    "range": "На себя",
     "components": [
       "В",
       "С",
@@ -2727,7 +2727,7 @@
     "higher_level": [
       "Если вы накладываете это заклинание, используя ячейку 6-го уровня или выше, урон увеличивается на 1к8 за каждый уровень ячейки выше пятого."
     ],
-    "range": "На себя (60-футовый конус)",
+    "range": "На себя",
     "components": [
       "В",
       "С",
@@ -3157,7 +3157,7 @@
     ],
     "range": "На себя",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": true,
     "duration": "1 минута",
@@ -3210,8 +3210,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "7 дней",
@@ -3259,9 +3259,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp.",
     "ritual": false,
@@ -3293,9 +3293,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Ruby dust worth 50 gp, which the spell consumes.",
     "ritual": false,
@@ -3346,9 +3346,9 @@
     ],
     "range": "300 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A drop of water and a pinch of dust.",
     "ritual": false,
@@ -3439,9 +3439,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Burning incense and bits of earth and wood mixed in water.",
     "ritual": false,
@@ -3492,7 +3492,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "S"
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -3533,8 +3533,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -3591,9 +3591,9 @@
     ],
     "range": "10 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "One clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse.",
     "ritual": false,
@@ -3640,9 +3640,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A drop of water if creating water, or a few grains of sand if destroying it.",
     "ritual": false,
@@ -3701,9 +3701,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A tiny piece of matter of the same type of the item you plan to create.",
     "ritual": false,
@@ -3747,8 +3747,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -3822,9 +3822,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of phosphorus or wychwood, or a glowworm.",
     "ritual": false,
@@ -3874,8 +3874,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "M"
+      "В",
+      "М"
     ],
     "material": "Bat fur and a drop of pitch or piece of coal.",
     "ritual": false,
@@ -3932,9 +3932,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Either a pinch of dried carrot or an agate.",
     "ritual": false,
@@ -3989,8 +3989,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 час",
@@ -4058,8 +4058,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "8 часов",
@@ -4107,9 +4107,9 @@
     ],
     "range": "150 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A tiny ball of bat guano and sulfur.",
     "ritual": false,
@@ -4171,7 +4171,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "S"
+      "С"
     ],
     "ritual": false,
     "duration": "1 час",
@@ -4208,8 +4208,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 10 минут",
@@ -4256,8 +4256,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": true,
     "duration": "До 10 минут",
@@ -4329,9 +4329,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A yew leaf.",
     "ritual": true,
@@ -4392,9 +4392,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A copper coin.",
     "ritual": false,
@@ -4444,7 +4444,7 @@
     ],
     "range": "500 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -4502,8 +4502,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 час",
@@ -4556,9 +4556,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A lodestone and a pinch of dust.",
     "ritual": false,
@@ -4620,9 +4620,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Holy water or powdered silver and iron.",
     "ritual": false,
@@ -4671,8 +4671,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -4746,9 +4746,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25gp, which the spell consumes.",
     "ritual": true,
@@ -4786,8 +4786,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -4839,7 +4839,7 @@
     ],
     "range": "30 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -4884,8 +4884,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -4935,8 +4935,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 часа",
@@ -4997,8 +4997,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -5052,9 +5052,9 @@
     ],
     "range": "Special",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird.",
     "ritual": false,
@@ -5125,8 +5125,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -5163,9 +5163,9 @@
     ],
     "range": "500 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of dirt, a piece of rock, and a lump of clay.",
     "ritual": false,
@@ -5211,8 +5211,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -5272,9 +5272,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Fur or a feather from a beast.",
     "ritual": false,
@@ -5330,9 +5330,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch iron powder.",
     "ritual": false,
@@ -5385,8 +5385,8 @@
     ],
     "range": "90 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -5435,8 +5435,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 минута",
@@ -5493,8 +5493,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "8 часов",
@@ -5545,8 +5545,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 10 минут",
@@ -5596,8 +5596,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -5654,8 +5654,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -5687,7 +5687,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -5738,9 +5738,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A tiny silver whistle, a piece of bone, and a thread",
     "ritual": false,
@@ -5786,9 +5786,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small amount of alcohol or distilled spirits.",
     "ritual": false,
@@ -5843,9 +5843,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A white feather or the heart of a hen.",
     "ritual": false,
@@ -5911,8 +5911,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "M"
+      "В",
+      "М"
     ],
     "material": "A small feather or a piece of down.",
     "ritual": false,
@@ -5963,9 +5963,9 @@
     ],
     "range": "150 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A handful of clay, crystal, glass, or mineral spheres.",
     "ritual": false,
@@ -6037,9 +6037,9 @@
     ],
     "range": "10 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "10gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier.",
     "ritual": true,
@@ -6075,8 +6075,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -6114,8 +6114,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -6163,9 +6163,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A set of divinatory tools--such as bones, ivory sticks, cards, teeth, or carved runes--worth 100gp and an object from the location you wish to find.",
     "ritual": false,
@@ -6208,8 +6208,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -6269,8 +6269,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -6322,9 +6322,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A little phosphorus or a firefly.",
     "ritual": false,
@@ -6377,8 +6377,8 @@
     ],
     "range": "150 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -6445,9 +6445,9 @@
     ],
     "range": "150 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A tiny ball of bat guano and sulfur.",
     "ritual": false,
@@ -6528,9 +6528,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Leaf of sumac.",
     "ritual": false,
@@ -6584,9 +6584,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Pinch of sulfur.",
     "ritual": false,
@@ -6660,9 +6660,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of tallow, a pinch of brimstone, and a dusting of powdered iron.",
     "ritual": false,
@@ -6725,9 +6725,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of lime, water, and earth.",
     "ritual": false,
@@ -6775,9 +6775,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A drop of mercury.",
     "ritual": true,
@@ -6818,9 +6818,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A wing feather from any bird.",
     "ritual": false,
@@ -6871,8 +6871,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 часа",
@@ -6931,9 +6931,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp.",
     "ritual": true,
@@ -6974,9 +6974,9 @@
     ],
     "range": "100 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Ruby dust worth 1,500 gp.",
     "ritual": false,
@@ -7023,9 +7023,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A hummingbird feather.",
     "ritual": false,
@@ -7073,9 +7073,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A leather strap, bound around the arm or a similar appendage.",
     "ritual": false,
@@ -7138,9 +7138,9 @@
     ],
     "range": "300 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small crystal sphere.",
     "ritual": false,
@@ -7196,9 +7196,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of gauze and a wisp of smoke.",
     "ritual": false,
@@ -7254,9 +7254,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A diamond worth at least 5,000gp.",
     "ritual": false,
@@ -7303,7 +7303,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "30 дней",
@@ -7363,9 +7363,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of salt and one copper piece placed on each of the corpse's eyes, which must remain there for the duration.",
     "ritual": true,
@@ -7411,8 +7411,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 10 минут",
@@ -7443,7 +7443,7 @@
     ],
     "range": "На себя",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "1 час",
@@ -7483,9 +7483,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A glass or crystal bead that shatters when the spell ends.",
     "ritual": false,
@@ -7535,9 +7535,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Incense and powdered diamond worth at least 200 gp, which the spell consumes.",
     "ritual": false,
@@ -7586,9 +7586,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A sprig of mistletoe.",
     "ritual": false,
@@ -7626,9 +7626,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of pork rind or butter.",
     "ritual": false,
@@ -7678,8 +7678,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -7730,9 +7730,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Diamond dust worth at least 100gp, which the spell consumes.",
     "ritual": false,
@@ -7775,7 +7775,7 @@
     ],
     "range": "30 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "8 часов",
@@ -7841,9 +7841,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp.",
     "ritual": false,
@@ -7884,8 +7884,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -7930,8 +7930,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 round",
@@ -7990,9 +7990,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A legume seed.",
     "ritual": false,
@@ -8065,9 +8065,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Herbs, oils, and incense worth at least 1,000 gp, which the spell consumes.",
     "ritual": false,
@@ -8118,9 +8118,9 @@
     ],
     "range": "300 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A stone, a twig, and a bit of green plant.",
     "ritual": false,
@@ -8177,8 +8177,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -8228,9 +8228,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A shaving of licorice root.",
     "ritual": false,
@@ -8281,8 +8281,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -8327,7 +8327,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -8389,9 +8389,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A piece of iron and a flame.",
     "ritual": false,
@@ -8463,8 +8463,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -8522,9 +8522,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A gem-encrusted bowl worth at least 1,000gp, which the spell consumes.",
     "ritual": false,
@@ -8561,8 +8561,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -8605,9 +8605,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Tiny tarts and a feather that is waved in the air.",
     "ritual": false,
@@ -8661,9 +8661,9 @@
     ],
     "range": "90 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small piece of iron.",
     "ritual": false,
@@ -8721,9 +8721,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small, straight piece of iron.",
     "ritual": false,
@@ -8799,9 +8799,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A tiny reliquary worth at least 1,000gp containing a sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a religious text.",
     "ritual": false,
@@ -8840,7 +8840,7 @@
     ],
     "range": "90 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "До 1 часа",
@@ -8872,8 +8872,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "S",
-      "M"
+      "С",
+      "М"
     ],
     "material": "A glowing stick of incense or a crystal vial filled with phosphorescent material.",
     "ritual": false,
@@ -8939,9 +8939,9 @@
     ],
     "range": "300 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of dust and a few drops of water.",
     "ritual": false,
@@ -9017,9 +9017,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pearl worth at least 100gp and an owl feather.",
     "ritual": true,
@@ -9065,8 +9065,8 @@
     ],
     "range": "Касание",
     "components": [
-      "S",
-      "M"
+      "С",
+      "М"
     ],
     "material": "A lead-based ink worth at least 10gp, which this spell consumes.",
     "ritual": true,
@@ -9128,9 +9128,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Рисунок или резная статуэтка, изображающая цель, и особый компонент, зависящий от выбранной версии заклинания, стоящий как минимум 500 зм за каждую Кость Хитов цели.",
     "ritual": false,
@@ -9178,8 +9178,8 @@
     ],
     "range": "150 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -9240,8 +9240,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -9301,9 +9301,9 @@
     ],
     "range": "300 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A few grains of sugar, some kernels of grain, and a smear of fat.",
     "ritual": false,
@@ -9380,9 +9380,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A sapphire worth 1,000 gp.",
     "ritual": true,
@@ -9417,9 +9417,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "An eyelash encased in gum arabic.",
     "ritual": false,
@@ -9478,7 +9478,7 @@
     ],
     "range": "30 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -9514,9 +9514,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A grasshopper's hind leg.",
     "ritual": false,
@@ -9572,7 +9572,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -9620,9 +9620,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each.",
     "ritual": false,
@@ -9664,8 +9664,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -9734,9 +9734,9 @@
         ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end.",
     "ritual": false,
@@ -9780,8 +9780,8 @@
         ],
     "range": "Касание",
     "components": [
-      "V",
-      "M"
+      "В",
+      "М"
     ],
     "material": "A firefly or phosphorescent moss.",
     "ritual": false,
@@ -9846,9 +9846,9 @@
         ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of fur and a rod of amber, crystal, or glass.",
     "ritual": false,
@@ -9924,9 +9924,9 @@
         ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of fur from a bloodhound.",
     "ritual": true,
@@ -9976,9 +9976,9 @@
         ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of fur from a bloodhound.",
     "ritual": false,
@@ -10043,9 +10043,9 @@
         ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A forked twig.",
     "ritual": false,
@@ -10111,9 +10111,9 @@
         ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of dirt.",
     "ritual": false,
@@ -10166,9 +10166,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A piece of cured leather.",
     "ritual": false,
@@ -10213,8 +10213,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 минута",
@@ -10274,9 +10274,9 @@
     ],
     "range": "10 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Holy water or powdered silver and iron worth at least 100 gp, which the spell consumes.",
     "ritual": false,
@@ -10348,9 +10348,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A gem, crystal, reliquary, or some other ornamental container worth at least 500 gp.",
     "ritual": false,
@@ -10394,8 +10394,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -10458,9 +10458,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A honeycomb and jade dust of at least 10 inches, the spell consumes.",
     "ritual": true,
@@ -10506,8 +10506,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 часа",
@@ -10551,9 +10551,9 @@
     ],
     "range": "300 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp.",
     "ritual": false,
@@ -10599,9 +10599,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of fleece.",
     "ritual": false,
@@ -10657,8 +10657,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -10716,8 +10716,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -10754,7 +10754,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -10806,8 +10806,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "M"
+      "В",
+      "М"
     ],
     "material": "A snake's tongue and either a bit of honeycomb or a drop of sweet oil.",
     "ritual": false,
@@ -10864,8 +10864,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 10 минут",
@@ -10898,8 +10898,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": true,
     "duration": "8 часов",
@@ -10942,9 +10942,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Two lodestones.",
     "ritual": false,
@@ -11003,9 +11003,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A short piece of copper wire.",
     "ritual": false,
@@ -11054,8 +11054,8 @@
     ],
     "range": "1 mile",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -11113,8 +11113,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "24 часа",
@@ -11153,8 +11153,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "S",
-      "M"
+      "С",
+      "М"
     ],
     "material": "A bit of fleece.",
     "ritual": false,
@@ -11210,8 +11210,8 @@
     ],
     "range": "Поле видимости",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "10 дней",
@@ -11260,8 +11260,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 минута",
@@ -11315,7 +11315,7 @@
     ],
     "range": "На себя",
     "components": [
-      "S"
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 часа",
@@ -11351,7 +11351,7 @@
     ],
     "range": "На себя",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -11410,8 +11410,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -11461,9 +11461,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Several seeds of any moonseed plant and a piece of opalescent feldspar.",
     "ritual": false,
@@ -11534,9 +11534,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "An iron blade and a small bag containing a mixture of soils--clay, loam, and sand.",
     "ritual": false,
@@ -11582,9 +11582,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes.",
     "ritual": false,
@@ -11632,9 +11632,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Ashes from a burned leaf of mistletoe and a sprig of spruce.",
     "ritual": false,
@@ -11683,9 +11683,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of sesame seeds.",
     "ritual": false,
@@ -11726,8 +11726,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -11777,8 +11777,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": true,
     "duration": "1 час",
@@ -11820,8 +11820,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -11856,9 +11856,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A jewel worth at least 1,000 gp, which the spell consumes.",
     "ritual": false,
@@ -11915,9 +11915,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A forked, metal rod worth at least 250 gp, attuned to a particular plane of existence.",
     "ritual": false,
@@ -11982,8 +11982,8 @@
     ],
     "range": "150 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -12036,8 +12036,8 @@
     ],
     "range": "10 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -12108,9 +12108,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A caterpillar cocoon.",
     "ritual": false,
@@ -12165,7 +12165,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -12212,7 +12212,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -12261,7 +12261,7 @@
     ],
     "range": "30 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -12315,8 +12315,8 @@
     ],
     "range": "10 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 час",
@@ -12376,8 +12376,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -12442,8 +12442,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "10 минут",
@@ -12489,9 +12489,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite.",
     "ritual": false,
@@ -12529,8 +12529,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "10 минут",
@@ -12584,9 +12584,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of fleece and jade dust worth at least 25 gp.",
     "ritual": false,
@@ -12630,9 +12630,9 @@
     ],
     "range": "500 миль",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small replica of you made from materials worth at least 5 gp.",
     "ritual": false,
@@ -12669,8 +12669,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 часа",
@@ -12733,9 +12733,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Holy water or powdered silver and iron, which the spell consumes.",
     "ritual": false,
@@ -12794,8 +12794,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 час",
@@ -12847,8 +12847,8 @@
     ],
     "range": "10 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": true,
     "duration": "Мгновенная",
@@ -12898,9 +12898,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A diamond worth at least 500gp, which the spell consumes.",
     "ritual": false,
@@ -12949,8 +12949,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -13002,8 +13002,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -13060,9 +13060,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A prayer wheel and holy water.",
     "ritual": false,
@@ -13125,9 +13125,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Rare oils and unguents worth at least 1,000 gp, which the spell consumes.",
     "ritual": false,
@@ -13159,8 +13159,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -13215,9 +13215,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic.",
     "ritual": false,
@@ -13257,9 +13257,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A miniature cloak.",
     "ritual": false,
@@ -13306,9 +13306,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A diamond worth at least 1,000gp, which the spell consumes.",
     "ritual": false,
@@ -13347,9 +13347,9 @@
     ],
     "range": "100 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A lodestone and iron filings.",
     "ritual": false,
@@ -13404,9 +13404,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Diamonds worth 300gp, which the spell consumes.",
     "ritual": false,
@@ -13457,9 +13457,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Powdered corn extract and a twisted loop of parchment.",
     "ritual": false,
@@ -13498,8 +13498,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -13558,9 +13558,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small silver mirror.",
     "ritual": false,
@@ -13607,8 +13607,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -13679,9 +13679,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water.",
     "ritual": false,
@@ -13749,9 +13749,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "An exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp.",
     "ritual": false,
@@ -13783,9 +13783,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A dash of talc and a small amount of silver powder.",
     "ritual": false,
@@ -13836,8 +13836,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "8 часов",
@@ -13879,9 +13879,9 @@
     ],
     "range": "Неограниченная",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A short piece of fine copper wire.",
     "ritual": false,
@@ -13931,9 +13931,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes.",
     "ritual": false,
@@ -13970,9 +13970,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell.",
     "ritual": false,
@@ -14013,9 +14013,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A burst of mica.",
     "ritual": false,
@@ -14097,8 +14097,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 round",
@@ -14140,9 +14140,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small parchment with a bit of holy text written on it.",
     "ritual": false,
@@ -14185,9 +14185,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Mistletoe, a shamrock leaf, and a club or quarterstaff.",
     "ritual": false,
@@ -14226,8 +14226,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -14284,8 +14284,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": true,
     "duration": "До 10 минут",
@@ -14343,9 +14343,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of fleece.",
     "ritual": false,
@@ -14400,9 +14400,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Снег или лёд в количестве, достаточном для создания точной копии существа; немного волос, обрезков ногтей или других частей тела этого существа, помещаемые в снег или лёд; и толчёный рубин стоимостью 1500 зм, которым посыпается копия и который расходуется заклинанием.",
     "ritual": false,
@@ -14439,9 +14439,9 @@
     ],
     "range": "90 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of fine sand, rose petals, or a cricket.",
     "ritual": false,
@@ -14500,9 +14500,9 @@
     ],
     "range": "150 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of dust and a few drops of water.",
     "ritual": false,
@@ -14562,9 +14562,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A drop of molasses.",
     "ritual": false,
@@ -14625,8 +14625,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -14657,8 +14657,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": true,
     "duration": "10 минут",
@@ -14706,9 +14706,9 @@
     ],
     "range": "10 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Burning incense.",
     "ritual": false,
@@ -14755,8 +14755,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "10 минут",
@@ -14807,9 +14807,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A drop of bitumen and a spider.",
     "ritual": false,
@@ -14863,9 +14863,9 @@
     ],
     "range": "150 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Seven sharp thorns or seven small twigs, each sharpened to a point.",
     "ritual": false,
@@ -14921,9 +14921,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A holy symbol.",
     "ritual": false,
@@ -14966,8 +14966,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 минута",
@@ -15029,9 +15029,9 @@
     ],
     "range": "90 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A rotten egg or several skunk cabbage leaves.",
     "ritual": false,
@@ -15102,9 +15102,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Soft clay, to be crudely worked into the desired shape for the stone object.",
     "ritual": false,
@@ -15152,9 +15152,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Diamond dust worth 100 gp, which the spell consumes.",
     "ritual": false,
@@ -15212,8 +15212,8 @@
     ],
     "range": "Поле видимости",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -15270,8 +15270,8 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "M"
+      "В",
+      "М"
     ],
     "material": "A snake's tongue and either a bit of honeycomb or a drop of sweet oil.",
     "ritual": false,
@@ -15334,9 +15334,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A magnifying glass.",
     "ritual": false,
@@ -15403,9 +15403,9 @@
     ],
     "range": "150 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Fire and a piece of sunstone.",
     "ritual": false,
@@ -15482,9 +15482,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes.",
     "ritual": false,
@@ -15535,8 +15535,8 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 10 минут",
@@ -15577,9 +15577,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Pieces of eggshell from two different kinds of creatures",
     "ritual": true,
@@ -15633,7 +15633,7 @@
     ],
     "range": "10 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -15680,8 +15680,8 @@
     ],
     "range": "10 футов",
     "components": [
-      "V",
-      "M"
+      "В",
+      "М"
     ],
     "material": "Rare chalks and inks infused with precious gems with 50 gp, which the spell consumes.",
     "ritual": false,
@@ -15734,7 +15734,7 @@
     ],
     "range": "30 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "1 минута",
@@ -15775,8 +15775,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -15859,7 +15859,7 @@
     ],
     "range": "На себя",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -15897,9 +15897,9 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small crystal bead.",
     "ritual": true,
@@ -15946,8 +15946,8 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "M"
+      "В",
+      "М"
     ],
     "material": "A small clay model of a ziggurat.",
     "ritual": false,
@@ -16005,8 +16005,8 @@
     ],
     "range": "10 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "1 round",
@@ -16038,8 +16038,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -16089,9 +16089,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A drop of mercury, a dollop of gum arabic, and a wisp of smoke.",
     "ritual": false,
@@ -16135,9 +16135,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A sprinkle of holy water and diamonds worth at least 25,000gp, which the spell consumes.",
     "ritual": false,
@@ -16174,9 +16174,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "An ointment for the eyes that costs 25gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell.",
     "ritual": false,
@@ -16228,7 +16228,7 @@
     ],
     "range": "30 футов",
     "components": [
-      "S"
+      "С"
     ],
     "ritual": false,
     "duration": "Up to 1 round",
@@ -16282,9 +16282,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A piece of string and a bit of wood.",
     "ritual": true,
@@ -16335,8 +16335,8 @@
     ],
     "range": "На себя",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -16396,7 +16396,7 @@
     ],
     "range": "60 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -16453,9 +16453,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small piece of phosphorus.",
     "ritual": false,
@@ -16526,9 +16526,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pinch of powder made by crushing a clear gemstone.",
     "ritual": false,
@@ -16565,9 +16565,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small piece of quartz.",
     "ritual": false,
@@ -16629,9 +16629,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A small block of granite.",
     "ritual": false,
@@ -16684,9 +16684,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A handful of thorns.",
     "ritual": false,
@@ -16745,9 +16745,9 @@
     ],
     "range": "Касание",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A pair of platinum rings worth at least 50gp each, which you and the target must wear for the duration.",
     "ritual": false,
@@ -16785,9 +16785,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A short piece of reed or straw.",
     "ritual": true,
@@ -16846,9 +16846,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A piece of cork.",
     "ritual": true,
@@ -16910,9 +16910,9 @@
     ],
     "range": "60 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A bit of spiderweb.",
     "ritual": false,
@@ -16964,8 +16964,8 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S"
+      "В",
+      "С"
     ],
     "ritual": false,
     "duration": "До 1 минуты",
@@ -17009,9 +17009,9 @@
     ],
     "range": "30 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "Fire and holy water.",
     "ritual": false,
@@ -17045,9 +17045,9 @@
     ],
     "range": "120 футов",
     "components": [
-      "V",
-      "S",
-      "M"
+      "В",
+      "С",
+      "М"
     ],
     "material": "A tiny fan and a feather of exotic origin.",
     "ritual": false,
@@ -17121,7 +17121,7 @@
     ],
     "range": "На себя",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
@@ -17158,7 +17158,7 @@
     ],
     "range": "5 футов",
     "components": [
-      "V"
+      "В"
     ],
     "ritual": false,
     "duration": "Мгновенная",
