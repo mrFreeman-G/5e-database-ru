@@ -17,7 +17,7 @@
     ],
     "material": "Порошок листа ревеня и желудок гадюки.",
     "ritual": false,
-    "duration": "Мгновенное",
+    "duration": "Мгновенная",
     "concentration": false,
     "casting_time": "1 действие",
     "level": 2,
@@ -25,7 +25,7 @@
     "damage": {
       "damage_type": {
         "index": "acid",
-        "name": "Кислота",
+        "name": "Кислотный",
         "url": "/api/2014/damage-types/acid"
       },
       "damage_at_slot_level": {
@@ -79,14 +79,14 @@
       "С"
     ],
     "ritual": false,
-    "duration": "Мгновенное",
+    "duration": "Мгновенная",
     "concentration": false,
     "casting_time": "1 действие",
     "level": 0,
     "damage": {
       "damage_type": {
         "index": "acid",
-        "name": "Кислота",
+        "name": "Кислотный",
         "url": "/api/2014/damage-types/acid"
       },
       "damage_at_character_level": {
@@ -1504,7 +1504,7 @@
     "damage": {
       "damage_type": {
         "index": "necrotic",
-        "name": "Некротическая энергия",
+        "name": "Некротический",
         "url": "/api/2014/damage-types/necrotic"
       },
       "damage_at_slot_level": {
@@ -1794,7 +1794,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -1877,7 +1877,7 @@
     "damage": {
       "damage_type": {
         "index": "lightning",
-        "name": "Молния",
+        "name": "Электрический",
         "url": "/api/2014/damage-types/lightning"
       },
       "damage_at_slot_level": {
@@ -2003,7 +2003,7 @@
     "damage": {
       "damage_type": {
         "index": "lightning",
-        "name": "Электричество",
+        "name": "Электрический",
         "url": "/api/2014/damage-types/lightning"
       },
       "damage_at_slot_level": {
@@ -4120,7 +4120,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -6219,7 +6219,7 @@
     "damage": {
       "damage_type": {
         "index": "necrotic",
-        "name": "Necrotic",
+        "name": "Некротический",
         "url": "/api/2014/damage-types/necrotic"
       },
       "damage_at_slot_level": {
@@ -6281,7 +6281,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_character_level": {
@@ -6335,7 +6335,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -6388,7 +6388,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -6458,7 +6458,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -6541,7 +6541,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -6597,7 +6597,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -6673,7 +6673,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -7151,7 +7151,7 @@
     "damage": {
       "damage_type": {
         "index": "cold",
-        "name": "Cold",
+        "name": "Холод",
         "url": "/api/2014/damage-types/cold"
       },
       "damage_at_slot_level": {
@@ -8188,7 +8188,7 @@
     "damage": {
       "damage_type": {
         "index": "necrotic",
-        "name": "Necrotic",
+        "name": "Некротический",
         "url": "/api/2014/damage-types/necrotic"
       },
       "damage_at_slot_level": {
@@ -8402,7 +8402,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -8474,7 +8474,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -9189,7 +9189,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -9252,7 +9252,7 @@
     "damage": {
       "damage_type": {
         "index": "necrotic",
-        "name": "Necrotic",
+        "name": "Некротический",
         "url": "/api/2014/damage-types/necrotic"
       },
       "damage_at_slot_level": {
@@ -9835,7 +9835,7 @@
   },
   {
     "index": "lightning-bolt",
-        "name": "Молния",
+        "name": "Электрический",
         "name_en": "Lightning Bolt",
         "desc": [
           "Разряд молнии формирует линию длиной 100 футов и шириной 5 футов, вылетающую в выбранном вами направлении. Все существа в линии должны совершить спасбросок Ловкости. Существо получает 8к6 урона электричеством при провале или половину урона при успехе.",
@@ -9859,7 +9859,7 @@
     "damage": {
       "damage_type": {
         "index": "lightning",
-        "name": "Lightning",
+        "name": "Электрический",
         "url": "/api/2014/damage-types/lightning"
       },
       "damage_at_slot_level": {
@@ -11065,7 +11065,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -12541,7 +12541,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_character_level": {
@@ -13014,7 +13014,7 @@
     "damage": {
       "damage_type": {
         "index": "cold",
-        "name": "Cold",
+        "name": "Холод",
         "url": "/api/2014/damage-types/cold"
       },
       "damage_at_character_level": {
@@ -13618,7 +13618,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -14238,7 +14238,7 @@
     "damage": {
       "damage_type": {
         "index": "lightning",
-        "name": "Lightning",
+        "name": "Электрический",
         "url": "/api/2014/damage-types/lightning"
       },
       "damage_at_character_level": {
@@ -16347,7 +16347,7 @@
     "damage": {
       "damage_type": {
         "index": "necrotic",
-        "name": "Necrotic",
+        "name": "Некротический",
         "url": "/api/2014/damage-types/necrotic"
       },
       "damage_at_slot_level": {
@@ -16466,7 +16466,7 @@
     "damage": {
       "damage_type": {
         "index": "fire",
-        "name": "Огонь",
+        "name": "Огненный",
         "url": "/api/2014/damage-types/fire"
       },
       "damage_at_slot_level": {
@@ -16578,7 +16578,7 @@
     "damage": {
       "damage_type": {
         "index": "cold",
-        "name": "Cold",
+        "name": "Холод",
         "url": "/api/2014/damage-types/cold"
       },
       "damage_at_slot_level": {
