@@ -1,3 +1,10 @@
+# 5e-database-ru
+### Форк для перевода 5e-database на русский язык.
+
+Переводы хранятся в ветке **`translated`**.
+
+---
+
 # 5e-database
 
 ![Build Status](https://github.com/5e-bits/5e-database/workflows/5e%20Database%20CI/badge.svg?branch=main)
